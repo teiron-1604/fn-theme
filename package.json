@@ -1,0 +1,79 @@
+{
+  "name": "@fn/theme",
+  "description": "Theme Variables for Uno CSS, based on Figma.",
+  "version": "0.1.0",
+  "private": true,
+  "author": "chengpeiquan <chengpeiquan@chengpeiquan.com>",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "light-variables.css": [
+        "./dist/index.d.ts"
+      ],
+      "dark-variables.css": [
+        "./dist/index.d.ts"
+      ],
+      "*": [
+        "./dist/index.d.ts",
+        "./dist/*"
+      ]
+    }
+  },
+  "exports": {
+    "./light-variables.css": "./dist/light-variables.css",
+    "./dark-variables.css": "./dist/dark-variables.css",
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "run-s build:*",
+    "build:cleanup": "tsx ./scripts/cleanup.ts",
+    "build:parse": "tsx ./scripts/parse-tokens.ts",
+    "build:transform": "run-s transform:*",
+    "build:variables": "tsx ./scripts/build-variables.ts",
+    "build:bundles": "tsup",
+    "build:copy": "tsx ./scripts/copy-assets.ts",
+    "transform:light": "token-transformer ./assets/figma-tokens/fn-tokens.json ./assets/tokens/light.json global,light --resolveReferences=false",
+    "transform:dark": "token-transformer ./assets/figma-tokens/fn-tokens.json ./assets/tokens/dark.json global,dark --resolveReferences=false",
+    "gen:changelog": "pnpm exec changelog",
+    "format": "prettier --write",
+    "lint": "eslint scripts",
+    "up": "npx npm-check-updates -u",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@bassist/changelog": "^0.3.0",
+    "@bassist/commit": "^0.1.1",
+    "@bassist/eslint": "^0.6.1",
+    "@bassist/node-utils": "^0.3.0",
+    "@bassist/tsconfig": "^0.1.1",
+    "@types/node": "^20.11.25",
+    "@unocss/preset-wind": "^0.58.5",
+    "conventional-changelog-cli": "^4.1.0",
+    "eslint": "^8.57.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.2.5",
+    "style-dictionary": "^3.9.2",
+    "token-transformer": "^0.0.33",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint scripts"
+    ]
+  }
+}

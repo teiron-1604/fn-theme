@@ -44,7 +44,7 @@
     "build:copy": "tsx ./scripts/copy-assets.ts",
     "transform:light": "token-transformer ./assets/figma-tokens/fn-tokens.json ./assets/tokens/light.json global,light --resolveReferences=false",
     "transform:dark": "token-transformer ./assets/figma-tokens/fn-tokens.json ./assets/tokens/dark.json global,dark --resolveReferences=false",
-    "gen:changelog": "pnpm exec changelog",
+    "gen:changelog": "pnpm exec changelog --commit-path=.",
     "format": "prettier --write",
     "lint": "eslint scripts",
     "up": "npx npm-check-updates -u",

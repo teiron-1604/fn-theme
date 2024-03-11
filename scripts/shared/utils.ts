@@ -1,6 +1,13 @@
-import baseStyleDictionary, { type Platform } from 'style-dictionary'
+import baseStyleDictionary, {
+  type TransformedToken,
+  type Platform,
+} from 'style-dictionary'
 import { CSS_VAR_PREFIX, WEB_PLATFORM, buildPath } from './config'
-import { type ExtraFilesOptions, type TokensConfig } from './types'
+import {
+  SpecialTokenType,
+  type ExtraFilesOptions,
+  type TokensConfig,
+} from './types'
 
 const { fileHeader, formattedVariables } = baseStyleDictionary.formatHelpers
 
@@ -22,6 +29,30 @@ baseStyleDictionary.registerFormat({
   },
 })
 
+function isColor(token: TransformedToken) {
+  return token?.type === SpecialTokenType.Color
+}
+
+function isTextColor(token: TransformedToken) {
+  return token?.type === SpecialTokenType.TextColor
+}
+
+function isBackgroundColor(token: TransformedToken) {
+  return token?.type === SpecialTokenType.BackgroundColor
+}
+
+function isBorderColor(token: TransformedToken) {
+  return token?.type === SpecialTokenType.BorderColor
+}
+
+function getUnoCategory(token: TransformedToken) {
+  if (isColor(token)) return SpecialTokenType.Colors
+  if (isTextColor(token)) return SpecialTokenType.TextColor
+  if (isBackgroundColor(token)) return SpecialTokenType.BackgroundColor
+  if (isBorderColor(token)) return SpecialTokenType.BorderColor
+  return (token.attributes || {})?.category
+}
+
 baseStyleDictionary.registerFormat({
   name: 'uno/config',
   formatter({ dictionary }) {
@@ -29,8 +60,7 @@ baseStyleDictionary.registerFormat({
 
     dictionary.allProperties.forEach((token) => {
       const attrs = token.attributes || {}
-      const isColor = token?.type === 'color'
-      const category = isColor ? 'colors' : attrs.category
+      const category = getUnoCategory(token)
       const cssVar = `var(--${token.name})`
 
       if (!category || !attrs.type) return
@@ -38,7 +68,7 @@ baseStyleDictionary.registerFormat({
         json[category] = {}
       }
 
-      if (!isColor) {
+      if (!isColor(token)) {
         json[category][attrs.type] = cssVar
         return
       }

@@ -12,6 +12,9 @@ async function run() {
   const replaced = exported
     .replace(prefixPattern, '')
     .replace(/\/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*\/+/g, separator)
+    .replace('"radius"', '"borderRadius"')
+    .replace('"blur"', '"blur"')
+    .replace(/(radius|blur)-/g, '')
 
   const fragments = replaced
     .split(separator)

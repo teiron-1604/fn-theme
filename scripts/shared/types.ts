@@ -13,3 +13,11 @@ export interface ExtraFilesOptions {
   format: string
   destination: string
 }
+
+export enum SpecialTokenType {
+  Color = 'color',
+  Colors = 'colors',
+  TextColor = 'textColor',
+  BackgroundColor = 'backgroundColor',
+  BorderColor = 'borderColor',
+}

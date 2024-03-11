@@ -1,3 +1,16 @@
+# [0.2.0](https://github.com/teiron-1604/fn-theme/compare/v0.1.1...v0.2.0) (2024-03-11)
+
+
+### Bug Fixes
+
+* **scripts:** fix invalid and duplicate prefix aliases ([28e53f5](https://github.com/teiron-1604/fn-theme/commit/28e53f55e25da54029d2be13c68b5b33cd04f676))
+
+
+### Features
+
+* **assets:** update token config ([5c59d9f](https://github.com/teiron-1604/fn-theme/commit/5c59d9f6fb2d71f974896938d51bae30f708d474))
+* **scripts:** reclassify some special color tokens ([bda8d32](https://github.com/teiron-1604/fn-theme/commit/bda8d32e8ad0fe0e0d6e7c751ef2de8bc522623e))
+
 ## [0.1.1](https://github.com/teiron-1604/fn-theme/compare/v0.1.0...v0.1.1) (2024-03-11)
 
 

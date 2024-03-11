@@ -31,7 +31,6 @@ async function run() {
     console.log('')
     console.log(`Processing:  [Web] [${config.brand}]`)
 
-    // https://amzn.github.io/style-dictionary/#/quick_start?id=node
     const overloaded = getSdOverloadedConfig(config)
     const sd = baseStyleDictionary.extend(overloaded)
     sd.buildPlatform(WEB_PLATFORM)

@@ -2,7 +2,6 @@
   "name": "@fn/theme",
   "description": "Theme Variables for Uno CSS, based on Figma.",
   "version": "0.1.0",
-  "private": true,
   "author": "chengpeiquan <chengpeiquan@chengpeiquan.com>",
   "type": "module",
   "files": [
@@ -34,6 +33,13 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "publishConfig": {
+    "registry": "http://verdaccio.teiron-inc.cn:4873/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teiron-1604/fn-theme"
+  },
   "scripts": {
     "build": "run-s build:*",
     "build:cleanup": "tsx ./scripts/cleanup.ts",
@@ -45,6 +51,7 @@
     "transform:light": "token-transformer ./assets/figma-tokens/fn-tokens.json ./assets/tokens/light.json global,light --resolveReferences=false",
     "transform:dark": "token-transformer ./assets/figma-tokens/fn-tokens.json ./assets/tokens/dark.json global,dark --resolveReferences=false",
     "gen:changelog": "pnpm exec changelog --commit-path=.",
+    "release": "semantic-release",
     "format": "prettier --write",
     "lint": "eslint scripts",
     "up": "npx npm-check-updates -u",
@@ -56,6 +63,8 @@
     "@bassist/eslint": "^0.6.1",
     "@bassist/node-utils": "^0.3.0",
     "@bassist/tsconfig": "^0.1.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@types/node": "^20.11.25",
     "@unocss/preset-wind": "^0.58.5",
     "conventional-changelog-cli": "^4.1.0",

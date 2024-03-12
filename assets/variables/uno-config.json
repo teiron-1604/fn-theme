@@ -5,7 +5,7 @@
     "third": "var(--fn-text-third)",
     "disabled": "var(--fn-text-disabled)",
     "anti": "var(--fn-text-anti)",
-    "yellow": "var(--fn-text-yellow)",
+    "highlight": "var(--fn-text-highlight)",
     "accent": "var(--fn-text-accent)",
     "accent-hovered": "var(--fn-text-accent-hovered)",
     "success": "var(--fn-text-success)",
@@ -15,7 +15,7 @@
     "warn": "var(--fn-text-warn)",
     "warn-hovered": "var(--fn-text-warn-hovered)",
     "brand": "var(--fn-text-brand)",
-    "brand-hoverd": "var(--fn-text-brand-hoverd)",
+    "brand-hovered": "var(--fn-text-brand-hovered)",
     "white": "var(--fn-text-white)"
   },
   "backgroundColor": {
@@ -75,7 +75,7 @@
     "error": "var(--fn-border-error)",
     "warn": "var(--fn-border-warn)",
     "brand": "var(--fn-border-brand)",
-    "foccus": "var(--fn-border-foccus)",
+    "focus": "var(--fn-border-focus)",
     "app": "var(--fn-border-app)",
     "modal": "var(--fn-border-modal)"
   },

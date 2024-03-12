@@ -22,7 +22,7 @@
 			"type": "color",
 			"value": "{fn-neutral.100}"
 		},
-		"yellow": {
+		"highlight": {
 			"type": "color",
 			"value": "{fn-yellow-orange.400}"
 		},
@@ -62,7 +62,7 @@
 			"type": "color",
 			"value": "{fn-blue.600}"
 		},
-		"brand-hoverd": {
+		"brand-hovered": {
 			"type": "color",
 			"value": "{fn-blue.700}"
 		},
@@ -166,11 +166,11 @@
 		},
 		"error-light": {
 			"type": "color",
-			"value": "{fn-orange-red.100}"
+			"value": "{fn-red.100}"
 		},
 		"error-light-hovered": {
 			"type": "color",
-			"value": "{fn-orange-red.200}"
+			"value": "{fn-red.200}"
 		},
 		"error": {
 			"type": "color",
@@ -182,11 +182,11 @@
 		},
 		"warn-light": {
 			"type": "color",
-			"value": "{fn-red.100}"
+			"value": "{fn-orange.100}"
 		},
 		"warn-light-hovered": {
 			"type": "color",
-			"value": "{fn-red.200}"
+			"value": "{fn-orange.200}"
 		},
 		"warn": {
 			"type": "color",
@@ -280,17 +280,17 @@
 		},
 		"error": {
 			"type": "color",
-			"value": "{fn-orange.400}"
+			"value": "{fn-red.400}"
 		},
 		"warn": {
 			"type": "color",
-			"value": "{fn-red.400}"
+			"value": "{fn-orange.400}"
 		},
 		"brand": {
 			"type": "color",
 			"value": "{fn-blue.300}"
 		},
-		"foccus": {
+		"focus": {
 			"type": "color",
 			"value": "{fn-blue.400}"
 		},
@@ -340,7 +340,7 @@
 			"type": "color",
 			"value": "{fn-neutral.900}"
 		},
-		"yellow": {
+		"highlight": {
 			"type": "color",
 			"value": "{fn-yellow-orange.400}"
 		},
@@ -380,7 +380,7 @@
 			"type": "color",
 			"value": "{fn-blue.500}"
 		},
-		"brand-hoverd": {
+		"brand-hovered": {
 			"type": "color",
 			"value": "{fn-blue.600}"
 		},
@@ -484,11 +484,11 @@
 		},
 		"error-light": {
 			"type": "color",
-			"value": "{fn-orange-red.900}"
+			"value": "{fn-black.100-90}"
 		},
 		"error-light-hovered": {
 			"type": "color",
-			"value": "{fn-orange-red.800}"
+			"value": "{fn-red.800}"
 		},
 		"error": {
 			"type": "color",
@@ -504,7 +504,7 @@
 		},
 		"warn-light-hovered": {
 			"type": "color",
-			"value": "{fn-red.900}"
+			"value": "{fn-orange.800}"
 		},
 		"warn": {
 			"type": "color",
@@ -598,17 +598,17 @@
 		},
 		"error": {
 			"type": "color",
-			"value": "{fn-orange.600}"
+			"value": "{fn-red.600}"
 		},
 		"warn": {
 			"type": "color",
-			"value": "{fn-red.600}"
+			"value": "{fn-orange.600}"
 		},
 		"brand": {
 			"type": "color",
 			"value": "{fn-blue.600}"
 		},
-		"foccus": {
+		"focus": {
 			"type": "color",
 			"value": "{fn-blue.700}"
 		},
@@ -1480,3 +1480,4 @@
 		}
 	}
 }
+

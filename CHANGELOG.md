@@ -1,3 +1,11 @@
+# [0.3.0](https://github.com/teiron-1604/fn-theme/compare/v0.2.0...v0.3.0) (2024-03-12)
+
+
+### Features
+
+* **assets:** update tokens ([231938a](https://github.com/teiron-1604/fn-theme/commit/231938a118b336347e2b4a8e06796116dcca0260))
+* **scripts:** add px unit to value of number tokens ([676d783](https://github.com/teiron-1604/fn-theme/commit/676d78359975fb6b1c88ec5470c9a31cbc861516))
+
 # [0.2.0](https://github.com/teiron-1604/fn-theme/compare/v0.1.1...v0.2.0) (2024-03-11)
 
 

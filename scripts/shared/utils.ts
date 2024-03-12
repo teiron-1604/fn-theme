@@ -7,6 +7,7 @@ import {
   SpecialTokenType,
   type ExtraFilesOptions,
   type TokensConfig,
+  LayoutCategoryName,
 } from './types'
 
 const { fileHeader, formattedVariables } = baseStyleDictionary.formatHelpers
@@ -45,12 +46,41 @@ function isBorderColor(token: TransformedToken) {
   return token?.type === SpecialTokenType.BorderColor
 }
 
+function isLayout(token: TransformedToken) {
+  const { category } = token?.attributes || {}
+  if (!category) return false
+  return ['layout', 'size'].includes(category)
+}
+
+function handleLayoutToken(
+  attrs: TransformedToken['attributes'],
+  cssVar: string,
+  rootJson: Record<string, any>,
+) {
+  const category = attrs?.category
+  const level = attrs?.type
+  if (!category || !level) return
+
+  const prefix = category === 'size' ? '' : `${category}-`
+  const subKey = `${prefix}${level}`
+  Object.keys(LayoutCategoryName).forEach((i) => {
+    const key = LayoutCategoryName[i as keyof typeof LayoutCategoryName]
+    if (!rootJson[key]) {
+      rootJson[key] = {}
+    }
+    rootJson[key][subKey] = cssVar
+  })
+}
+
 function getUnoCategory(token: TransformedToken) {
   if (isColor(token)) return SpecialTokenType.Colors
   if (isTextColor(token)) return SpecialTokenType.TextColor
   if (isBackgroundColor(token)) return SpecialTokenType.BackgroundColor
   if (isBorderColor(token)) return SpecialTokenType.BorderColor
-  return (token.attributes || {})?.category
+
+  const category = (token.attributes || {})?.category
+  if (category === 'layout') return 'width'
+  return category
 }
 
 baseStyleDictionary.registerFormat({
@@ -63,24 +93,38 @@ baseStyleDictionary.registerFormat({
       const category = getUnoCategory(token)
       const cssVar = `var(--${token.name})`
 
+      if (isLayout(token)) {
+        handleLayoutToken(attrs, cssVar, json)
+        return
+      }
+
       if (!category || !attrs.type) return
       if (!json[category]) {
         json[category] = {}
       }
 
-      if (!isColor(token)) {
-        json[category][attrs.type] = cssVar
+      if (isColor(token)) {
+        const colorName = attrs.category
+        const colorLevel = attrs.type
+        if (!colorName || !colorLevel) return
+        if (!json[category][colorName]) {
+          json[category][colorName] = {}
+        }
+
+        json[category][colorName][colorLevel] = cssVar
         return
       }
 
-      const colorName = attrs.category
-      const colorLevel = attrs.type
-      if (!colorName || !colorLevel) return
-      if (!json[category][colorName]) {
-        json[category][colorName] = {}
+      if (isLayout(token)) {
+        const subCategory = attrs.category
+        const layoutLevel = attrs.type
+        if (!subCategory || !layoutLevel) return
+        const key = `${subCategory}-${layoutLevel}`
+        json[category][key] = cssVar
+        return
       }
 
-      json[category][colorName][colorLevel] = cssVar
+      json[category][attrs.type] = cssVar
     })
 
     return JSON.stringify(json, null, 2)

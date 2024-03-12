@@ -1,3 +1,12 @@
+## [0.4.1](https://github.com/teiron-1604/fn-theme/compare/v0.4.0...v0.4.1) (2024-03-12)
+
+
+### Bug Fixes
+
+* **assets:** rebuild tokens ([a3d470f](https://github.com/teiron-1604/fn-theme/commit/a3d470fb48815455efb3b933e9e04fb02cfb08de))
+* **build-variables:** layout and size variables not working ([867015d](https://github.com/teiron-1604/fn-theme/commit/867015d884bf2638c95be4bcac01ed70c2fe62d0))
+* **parse-tokens:** radius alias being reserved and invalid ([665189a](https://github.com/teiron-1604/fn-theme/commit/665189ab96c8c577d340052238b1d8fc573abc28))
+
 # [0.4.0](https://github.com/teiron-1604/fn-theme/compare/v0.3.0...v0.4.0) (2024-03-12)
 
 

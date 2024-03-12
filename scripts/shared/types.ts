@@ -21,3 +21,13 @@ export enum SpecialTokenType {
   BackgroundColor = 'backgroundColor',
   BorderColor = 'borderColor',
 }
+
+// `layout` and `size` tokens
+export enum LayoutCategoryName {
+  Width = 'width',
+  Height = 'height',
+  MaxWidth = 'maxWidth',
+  MaxHeight = 'maxHeight',
+  MinWidth = 'minWidth',
+  MinHeight = 'minHeight',
+}

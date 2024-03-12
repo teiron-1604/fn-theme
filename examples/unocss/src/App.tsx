@@ -18,7 +18,7 @@ function App() {
       </div>
       <h1 className="text-success">Vite + React</h1>
 
-      <div className="w-30 h-30 mx-auto bg-surface-dim rounded-popup border-1 border-solid border-success">
+      <div className="w-layout-10 h-layout-10 max-w-app-width min-h-layout-5 mx-auto bg-surface-dim rounded-size-s border-1 border-solid border-success">
         <h2 className="text-secondary">Hello</h2>
       </div>
 

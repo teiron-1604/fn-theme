@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 12 Mar 2024 03:49:33 GMT
+ * Generated on Tue, 12 Mar 2024 06:49:47 GMT
  */
 
 
@@ -230,17 +230,17 @@
   --fn-black-100-90: rgba(0, 0, 0, 0.9000);
   --fn-opacity-neutral-250-45: rgba(128, 131, 150, 0.4500);
   --fn-opacity-neutral-550-24: rgba(99, 103, 121, 0.2400);
-  --fn-border-radius-50: 200px;
-  --fn-border-radius-xs: 6px;
-  --fn-border-radius-s: 8px;
-  --fn-border-radius-m: 12px;
-  --fn-border-radius-l: 16px;
-  --fn-border-radius-xl: 20px;
-  --fn-border-radius-contact: 20px;
-  --fn-border-radius-popup: 24px;
-  --fn-border-radius-toast: 24px;
-  --fn-border-radius-card: 16px;
-  --fn-border-radius-list: 12px;
+  --fn-border-radius-size-xs: 6px;
+  --fn-border-radius-size-s: 8px;
+  --fn-border-radius-size-m: 12px;
+  --fn-border-radius-size-l: 16px;
+  --fn-border-radius-size-xl: 20px;
+  --fn-border-radius-size-50: 200px;
+  --fn-border-radius-size-contact: 20px;
+  --fn-border-radius-size-popup: 24px;
+  --fn-border-radius-size-toast: 24px;
+  --fn-border-radius-size-card: 16px;
+  --fn-border-radius-size-list: 12px;
   --fn-blur-xs: 8px;
   --fn-blur-s: 16px;
   --fn-blur-m: 24px;

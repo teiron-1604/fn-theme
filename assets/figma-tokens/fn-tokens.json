@@ -629,47 +629,47 @@
       }
     },
     "borderRadius": {
-      "50": {
-        "type": "number",
-        "value": "200px"
-      },
-      "xs": {
+      "size-xs": {
         "type": "number",
         "value": "6px"
       },
-      "s": {
+      "size-s": {
         "type": "number",
         "value": "8px"
       },
-      "m": {
+      "size-m": {
         "type": "number",
         "value": "12px"
       },
-      "l": {
+      "size-l": {
         "type": "number",
         "value": "16px"
       },
-      "xl": {
+      "size-xl": {
         "type": "number",
         "value": "20px"
       },
-      "contact": {
+      "size-50": {
+        "type": "number",
+        "value": "200px"
+      },
+      "size-contact": {
         "type": "number",
         "value": "20px"
       },
-      "popup": {
+      "size-popup": {
         "type": "number",
         "value": "24px"
       },
-      "toast": {
+      "size-toast": {
         "type": "number",
         "value": "24px"
       },
-      "card": {
+      "size-card": {
         "type": "number",
         "value": "16px"
       },
-      "list": {
+      "size-list": {
         "type": "number",
         "value": "12px"
       }

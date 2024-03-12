@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 12 Mar 2024 02:37:18 GMT
+ * Generated on Tue, 12 Mar 2024 03:49:33 GMT
  */
 
 
@@ -10,7 +10,7 @@
   --fn-text-third: #9195a6;
   --fn-text-disabled: #666a7f;
   --fn-text-anti: #05060b;
-  --fn-text-yellow: #ffcb3d;
+  --fn-text-highlight: #ffcb3d;
   --fn-text-accent: #69a0f7;
   --fn-text-accent-hovered: #0e4caf;
   --fn-text-success: #7af088;
@@ -20,7 +20,7 @@
   --fn-text-warn: #fa8900;
   --fn-text-warn-hovered: #a85f00;
   --fn-text-brand: #3374db;
-  --fn-text-brand-hoverd: #0e4caf;
+  --fn-text-brand-hovered: #0e4caf;
   --fn-text-white: #ffffff;
   --fn-bg-surface-dim: #05060b;
   --fn-bg-surface: #05060b;
@@ -45,12 +45,12 @@
   --fn-bg-success-light-hovered: #002e0e;
   --fn-bg-success: #39d551;
   --fn-bg-success-hovered: #0da529;
-  --fn-bg-error-light: #1a0700;
-  --fn-bg-error-light-hovered: #330e00;
+  --fn-bg-error-light: rgba(0, 0, 0, 0.9000);
+  --fn-bg-error-light-hovered: #330009;
   --fn-bg-error: #ff0420;
   --fn-bg-error-hovered: #ff5c6c;
   --fn-bg-warn-light: rgba(0, 0, 0, 0.9000);
-  --fn-bg-warn-light-hovered: #180207;
+  --fn-bg-warn-light-hovered: #331f00;
   --fn-bg-warn: #a85f00;
   --fn-bg-warn-hovered: #fa8900;
   --fn-bg-brand-light: #000e24;
@@ -73,10 +73,10 @@
   --fn-border-anti: #fbfcfe;
   --fn-border-accent: #0e4caf;
   --fn-border-success: #0da529;
-  --fn-border-error: #a85f00;
-  --fn-border-warn: #b80018;
+  --fn-border-error: #b80018;
+  --fn-border-warn: #a85f00;
   --fn-border-brand: #0e4caf;
-  --fn-border-foccus: #002d75;
+  --fn-border-focus: #002d75;
   --fn-border-app: rgba(255, 255, 255, 0.4000);
   --fn-border-modal: rgba(0, 0, 0, 0.9000);
   --fn-divider-default: rgba(255, 255, 255, 0.1000);

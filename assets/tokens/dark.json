@@ -20,7 +20,7 @@
       "type": "textColor",
       "value": "{neutral.900}"
     },
-    "yellow": {
+    "highlight": {
       "type": "textColor",
       "value": "{yellow-orange.400}"
     },
@@ -60,7 +60,7 @@
       "type": "textColor",
       "value": "{blue.500}"
     },
-    "brand-hoverd": {
+    "brand-hovered": {
       "type": "textColor",
       "value": "{blue.600}"
     },
@@ -164,11 +164,11 @@
     },
     "error-light": {
       "type": "backgroundColor",
-      "value": "{orange-red.900}"
+      "value": "{black.100-90}"
     },
     "error-light-hovered": {
       "type": "backgroundColor",
-      "value": "{orange-red.800}"
+      "value": "{red.800}"
     },
     "error": {
       "type": "backgroundColor",
@@ -184,7 +184,7 @@
     },
     "warn-light-hovered": {
       "type": "backgroundColor",
-      "value": "{red.900}"
+      "value": "{orange.800}"
     },
     "warn": {
       "type": "backgroundColor",
@@ -278,17 +278,17 @@
     },
     "error": {
       "type": "borderColor",
-      "value": "{orange.600}"
+      "value": "{red.600}"
     },
     "warn": {
       "type": "borderColor",
-      "value": "{red.600}"
+      "value": "{orange.600}"
     },
     "brand": {
       "type": "borderColor",
       "value": "{blue.600}"
     },
-    "foccus": {
+    "focus": {
       "type": "borderColor",
       "value": "{blue.700}"
     },

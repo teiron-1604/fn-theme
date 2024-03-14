@@ -1,7 +1,7 @@
 {
   "name": "@fn/theme",
   "description": "Theme Variables for Uno CSS, based on Figma.",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "author": "chengpeiquan <chengpeiquan@chengpeiquan.com>",
   "type": "module",
   "files": [

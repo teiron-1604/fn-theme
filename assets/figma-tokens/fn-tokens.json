@@ -535,6 +535,14 @@
         "type": "color",
         "value": "rgba(255, 255, 255, 0.0000)"
       },
+      "100-4": {
+        "type": "color",
+        "value": "rgba(255, 255, 255, 0.0400)"
+      },
+      "100-8": {
+        "type": "color",
+        "value": "rgba(255, 255, 255, 0.0800)"
+      },
       "100-10": {
         "type": "color",
         "value": "rgba(255, 255, 255, 0.1000)"
@@ -633,15 +641,15 @@
         "type": "number",
         "value": "6px"
       },
-      "size-s": {
+      "size-sm": {
         "type": "number",
         "value": "8px"
       },
-      "size-m": {
+      "size-base": {
         "type": "number",
         "value": "12px"
       },
-      "size-l": {
+      "size-lg": {
         "type": "number",
         "value": "16px"
       },
@@ -679,15 +687,15 @@
         "type": "number",
         "value": "8px"
       },
-      "s": {
+      "sm": {
         "type": "number",
         "value": "16px"
       },
-      "m": {
+      "base": {
         "type": "number",
         "value": "24px"
       },
-      "l": {
+      "lg": {
         "type": "number",
         "value": "40px"
       },
@@ -859,7 +867,7 @@
         "type": "textColor",
         "value": "{neutral.100}"
       },
-      "highlight": {
+      "yellow": {
         "type": "textColor",
         "value": "{yellow-orange.400}"
       },
@@ -943,7 +951,7 @@
       },
       "app": {
         "type": "backgroundColor",
-        "value": "{white.100-90}"
+        "value": "{white.100-80}"
       },
       "app-header": {
         "type": "backgroundColor",
@@ -955,7 +963,7 @@
       },
       "app-container": {
         "type": "backgroundColor",
-        "value": "{bg.container-brightest}"
+        "value": "{bg.surface}"
       },
       "modal": {
         "type": "backgroundColor",
@@ -1067,7 +1075,7 @@
       },
       "mc-placeholder": {
         "type": "backgroundColor",
-        "value": "{neutral.800}"
+        "value": "{neutral.750}"
       },
       "mc-dropdown": {
         "type": "backgroundColor",
@@ -1075,7 +1083,7 @@
       },
       "mc-dialog": {
         "type": "backgroundColor",
-        "value": "{neutral.750}"
+        "value": "{neutral.850}"
       },
       "mc-overlay": {
         "type": "backgroundColor",
@@ -1085,9 +1093,49 @@
         "type": "backgroundColor",
         "value": "{neutral.700}"
       },
+      "mc-btn-default": {
+        "type": "backgroundColor",
+        "value": "{black.100-20}"
+      },
+      "mc-btn-hover": {
+        "type": "backgroundColor",
+        "value": "{black.100-30}"
+      },
+      "fill-default": {
+        "type": "backgroundColor",
+        "value": "{neutral.150}"
+      },
+      "fill-second": {
+        "type": "backgroundColor",
+        "value": "{neutral.200}"
+      },
+      "fill-tertiary": {
+        "type": "backgroundColor",
+        "value": "{neutral.250}"
+      },
       "skeleton": {
         "type": "backgroundColor",
         "value": "{opacity.neutral-250-45}"
+      },
+      "white": {
+        "type": "backgroundColor",
+        "value": "{white.white-100}"
+      },
+      "progress-default": {
+        "type": "backgroundColor",
+        "value": "{bg.container-dimmest}"
+      },
+      "progress-second": {
+        "type": "backgroundColor",
+        "value": "{neutral.300}"
+      },
+      "scrollbar-default": {
+        "type": "backgroundColor",
+        "value": "{neutral.200}"
+      },
+      "scrollbar-second": {
+        "type": "backgroundColor",
+        "value": "{neutral.250}"
       }
     },
     "border": {
@@ -1173,7 +1221,7 @@
         "type": "textColor",
         "value": "{neutral.900}"
       },
-      "highlight": {
+      "yellow": {
         "type": "textColor",
         "value": "{yellow-orange.400}"
       },
@@ -1257,7 +1305,7 @@
       },
       "app": {
         "type": "backgroundColor",
-        "value": "{black.100-90}"
+        "value": "{black.100-80}"
       },
       "app-header": {
         "type": "backgroundColor",
@@ -1269,7 +1317,7 @@
       },
       "app-container": {
         "type": "backgroundColor",
-        "value": "{bg.container-brightest}"
+        "value": "{bg.surface}"
       },
       "modal": {
         "type": "backgroundColor",
@@ -1381,7 +1429,7 @@
       },
       "mc-placeholder": {
         "type": "backgroundColor",
-        "value": "{neutral.800}"
+        "value": "{neutral.750}"
       },
       "mc-dropdown": {
         "type": "backgroundColor",
@@ -1389,7 +1437,7 @@
       },
       "mc-dialog": {
         "type": "backgroundColor",
-        "value": "{neutral.750}"
+        "value": "{neutral.850}"
       },
       "mc-overlay": {
         "type": "backgroundColor",
@@ -1399,9 +1447,49 @@
         "type": "backgroundColor",
         "value": "{neutral.700}"
       },
+      "mc-btn-default": {
+        "type": "backgroundColor",
+        "value": "{black.100-20}"
+      },
+      "mc-btn-hover": {
+        "type": "backgroundColor",
+        "value": "{black.100-30}"
+      },
+      "fill-default": {
+        "type": "backgroundColor",
+        "value": "{white.100-4}"
+      },
+      "fill-second": {
+        "type": "backgroundColor",
+        "value": "{white.100-8}"
+      },
+      "fill-tertiary": {
+        "type": "backgroundColor",
+        "value": "{white.100-10}"
+      },
       "skeleton": {
         "type": "backgroundColor",
         "value": "{opacity.neutral-550-24}"
+      },
+      "white": {
+        "type": "backgroundColor",
+        "value": "{white.white-100}"
+      },
+      "progress-default": {
+        "type": "backgroundColor",
+        "value": "{white.100-20}"
+      },
+      "progress-second": {
+        "type": "backgroundColor",
+        "value": "{white.100-50}"
+      },
+      "scrollbar-default": {
+        "type": "backgroundColor",
+        "value": "{white.100-10}"
+      },
+      "scrollbar-second": {
+        "type": "backgroundColor",
+        "value": "{white.100-20}"
       }
     },
     "border": {
@@ -1447,7 +1535,7 @@
       },
       "app": {
         "type": "borderColor",
-        "value": "{white.100-40}"
+        "value": "{black.100-40}"
       },
       "modal": {
         "type": "borderColor",

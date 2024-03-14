@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 12 Mar 2024 06:49:47 GMT
+ * Generated on Thu, 14 Mar 2024 08:46:28 GMT
  */
 
 
@@ -10,7 +10,7 @@
   --fn-text-third: #9195a6;
   --fn-text-disabled: #666a7f;
   --fn-text-anti: #05060b;
-  --fn-text-highlight: #ffcb3d;
+  --fn-text-yellow: #ffcb3d;
   --fn-text-accent: #69a0f7;
   --fn-text-accent-hovered: #0e4caf;
   --fn-text-success: #7af088;
@@ -30,14 +30,14 @@
   --fn-bg-container: #1f2233;
   --fn-bg-container-dim: #272c40;
   --fn-bg-container-dimmest: rgba(64, 68, 84, 0.2400);
-  --fn-bg-app: rgba(0, 0, 0, 0.9000);
+  --fn-bg-app: rgba(0, 0, 0, 0.8000);
   --fn-bg-app-header: rgba(0, 0, 0, 0.0000);
   --fn-bg-app-sidebar: rgba(0, 0, 0, 0.0000);
-  --fn-bg-app-container: #0f111e;
-  --fn-bg-modal: rgba(0, 0, 0, 0.9000);
+  --fn-bg-app-container: #05060b;
+  --fn-bg-modal: rgba(0, 0, 0, 0.8000);
   --fn-bg-modal-header: rgba(0, 0, 0, 0.0000);
   --fn-bg-modal-sidebar: rgba(0, 0, 0, 0.0000);
-  --fn-bg-modal-container: #0f111e;
+  --fn-bg-modal-container: #05060b;
   --fn-bg-anti: #fbfcfe;
   --fn-bg-accent: #002d75;
   --fn-bg-accent-hovered: #0e4caf;
@@ -61,12 +61,22 @@
   --fn-bg-toast: rgba(255, 255, 255, 0.9000);
   --fn-bg-mc-sidebar: #05060b;
   --fn-bg-mc-container: #0f111e;
-  --fn-bg-mc-placeholder: #151826;
+  --fn-bg-mc-placeholder: #1f2233;
   --fn-bg-mc-dropdown: rgba(0, 0, 0, 0.8000);
-  --fn-bg-mc-dialog: #1f2233;
+  --fn-bg-mc-dialog: #0f111e;
   --fn-bg-mc-overlay: rgba(0, 0, 0, 0.4000);
   --fn-bg-mc-toast: #272c40;
+  --fn-bg-mc-btn-default: rgba(0, 0, 0, 0.2000);
+  --fn-bg-mc-btn-hover: rgba(0, 0, 0, 0.3000);
+  --fn-bg-fill-default: rgba(255, 255, 255, 0.0400);
+  --fn-bg-fill-second: rgba(255, 255, 255, 0.0800);
+  --fn-bg-fill-tertiary: rgba(255, 255, 255, 0.1000);
   --fn-bg-skeleton: rgba(99, 103, 121, 0.2400);
+  --fn-bg-white: #ffffff;
+  --fn-bg-progress-default: rgba(255, 255, 255, 0.2000);
+  --fn-bg-progress-second: rgba(255, 255, 255, 0.5000);
+  --fn-bg-scrollbar-default: rgba(255, 255, 255, 0.1000);
+  --fn-bg-scrollbar-second: rgba(255, 255, 255, 0.2000);
   --fn-border-default: #3e4359;
   --fn-border-default-hovered: #666a7f;
   --fn-border-disabled: #272c40;
@@ -77,8 +87,8 @@
   --fn-border-warn: #a85f00;
   --fn-border-brand: #0e4caf;
   --fn-border-focus: #002d75;
-  --fn-border-app: rgba(255, 255, 255, 0.4000);
-  --fn-border-modal: rgba(0, 0, 0, 0.9000);
+  --fn-border-app: rgba(0, 0, 0, 0.4000);
+  --fn-border-modal: rgba(0, 0, 0, 0.8000);
   --fn-divider-default: rgba(255, 255, 255, 0.1000);
   --fn-divider-secondary: rgba(255, 255, 255, 0.0600);
   --fn-neutral-100: #fbfcfe;
@@ -208,6 +218,8 @@
   --fn-violet-900: #0e001f;
   --fn-white-white-100: #ffffff;
   --fn-white-100-0: rgba(255, 255, 255, 0.0000);
+  --fn-white-100-4: rgba(255, 255, 255, 0.0400);
+  --fn-white-100-8: rgba(255, 255, 255, 0.0800);
   --fn-white-100-10: rgba(255, 255, 255, 0.1000);
   --fn-white-100-20: rgba(255, 255, 255, 0.2000);
   --fn-white-100-30: rgba(255, 255, 255, 0.3000);
@@ -231,9 +243,9 @@
   --fn-opacity-neutral-250-45: rgba(128, 131, 150, 0.4500);
   --fn-opacity-neutral-550-24: rgba(99, 103, 121, 0.2400);
   --fn-border-radius-size-xs: 6px;
-  --fn-border-radius-size-s: 8px;
-  --fn-border-radius-size-m: 12px;
-  --fn-border-radius-size-l: 16px;
+  --fn-border-radius-size-sm: 8px;
+  --fn-border-radius-size-base: 12px;
+  --fn-border-radius-size-lg: 16px;
   --fn-border-radius-size-xl: 20px;
   --fn-border-radius-size-50: 200px;
   --fn-border-radius-size-contact: 20px;
@@ -242,9 +254,9 @@
   --fn-border-radius-size-card: 16px;
   --fn-border-radius-size-list: 12px;
   --fn-blur-xs: 8px;
-  --fn-blur-s: 16px;
-  --fn-blur-m: 24px;
-  --fn-blur-l: 40px;
+  --fn-blur-sm: 16px;
+  --fn-blur-base: 24px;
+  --fn-blur-lg: 40px;
   --fn-blur-xl: 32px;
   --fn-layout-0: 0px;
   --fn-layout-1: 4px;

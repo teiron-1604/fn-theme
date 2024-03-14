@@ -5,7 +5,7 @@
     "third": "var(--fn-text-third)",
     "disabled": "var(--fn-text-disabled)",
     "anti": "var(--fn-text-anti)",
-    "highlight": "var(--fn-text-highlight)",
+    "yellow": "var(--fn-text-yellow)",
     "accent": "var(--fn-text-accent)",
     "accent-hovered": "var(--fn-text-accent-hovered)",
     "success": "var(--fn-text-success)",
@@ -63,7 +63,17 @@
     "mc-dialog": "var(--fn-bg-mc-dialog)",
     "mc-overlay": "var(--fn-bg-mc-overlay)",
     "mc-toast": "var(--fn-bg-mc-toast)",
-    "skeleton": "var(--fn-bg-skeleton)"
+    "mc-btn-default": "var(--fn-bg-mc-btn-default)",
+    "mc-btn-hover": "var(--fn-bg-mc-btn-hover)",
+    "fill-default": "var(--fn-bg-fill-default)",
+    "fill-second": "var(--fn-bg-fill-second)",
+    "fill-tertiary": "var(--fn-bg-fill-tertiary)",
+    "skeleton": "var(--fn-bg-skeleton)",
+    "white": "var(--fn-bg-white)",
+    "progress-default": "var(--fn-bg-progress-default)",
+    "progress-second": "var(--fn-bg-progress-second)",
+    "scrollbar-default": "var(--fn-bg-scrollbar-default)",
+    "scrollbar-second": "var(--fn-bg-scrollbar-second)"
   },
   "borderColor": {
     "default": "var(--fn-border-default)",
@@ -238,6 +248,8 @@
     "white": {
       "white-100": "var(--fn-white-white-100)",
       "100-0": "var(--fn-white-100-0)",
+      "100-4": "var(--fn-white-100-4)",
+      "100-8": "var(--fn-white-100-8)",
       "100-10": "var(--fn-white-100-10)",
       "100-20": "var(--fn-white-100-20)",
       "100-30": "var(--fn-white-100-30)",
@@ -268,9 +280,9 @@
   },
   "borderRadius": {
     "size-xs": "var(--fn-border-radius-size-xs)",
-    "size-s": "var(--fn-border-radius-size-s)",
-    "size-m": "var(--fn-border-radius-size-m)",
-    "size-l": "var(--fn-border-radius-size-l)",
+    "size-sm": "var(--fn-border-radius-size-sm)",
+    "size-base": "var(--fn-border-radius-size-base)",
+    "size-lg": "var(--fn-border-radius-size-lg)",
     "size-xl": "var(--fn-border-radius-size-xl)",
     "size-50": "var(--fn-border-radius-size-50)",
     "size-contact": "var(--fn-border-radius-size-contact)",
@@ -281,9 +293,9 @@
   },
   "blur": {
     "xs": "var(--fn-blur-xs)",
-    "s": "var(--fn-blur-s)",
-    "m": "var(--fn-blur-m)",
-    "l": "var(--fn-blur-l)",
+    "sm": "var(--fn-blur-sm)",
+    "base": "var(--fn-blur-base)",
+    "lg": "var(--fn-blur-lg)",
     "xl": "var(--fn-blur-xl)"
   },
   "width": {

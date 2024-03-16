@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 14 Mar 2024 08:46:28 GMT
+ * Generated on Sat, 16 Mar 2024 08:10:02 GMT
  */
 
 
@@ -58,6 +58,7 @@
   --fn-bg-brand: #3374db;
   --fn-bg-brand-hovered: #69a0f7;
   --fn-bg-overlay: rgba(0, 0, 0, 0.7000);
+  --fn-bg-overlay-anti: rgba(0, 0, 0, 0.7000);
   --fn-bg-toast: rgba(255, 255, 255, 0.9000);
   --fn-bg-mc-sidebar: #05060b;
   --fn-bg-mc-container: #0f111e;
@@ -76,7 +77,7 @@
   --fn-bg-progress-default: rgba(255, 255, 255, 0.2000);
   --fn-bg-progress-second: rgba(255, 255, 255, 0.5000);
   --fn-bg-scrollbar-default: rgba(255, 255, 255, 0.1000);
-  --fn-bg-scrollbar-second: rgba(255, 255, 255, 0.2000);
+  --fn-bg-scrollbar-hover: rgba(255, 255, 255, 0.2000);
   --fn-border-default: #3e4359;
   --fn-border-default-hovered: #666a7f;
   --fn-border-disabled: #272c40;
@@ -87,8 +88,8 @@
   --fn-border-warn: #a85f00;
   --fn-border-brand: #0e4caf;
   --fn-border-focus: #002d75;
-  --fn-border-app: rgba(0, 0, 0, 0.4000);
-  --fn-border-modal: rgba(0, 0, 0, 0.8000);
+  --fn-border-app: rgba(255, 255, 255, 0.1000);
+  --fn-border-modal: rgba(255, 255, 255, 0.1000);
   --fn-divider-default: rgba(255, 255, 255, 0.1000);
   --fn-divider-secondary: rgba(255, 255, 255, 0.0600);
   --fn-neutral-100: #fbfcfe;
@@ -249,7 +250,7 @@
   --fn-border-radius-size-xl: 20px;
   --fn-border-radius-size-50: 200px;
   --fn-border-radius-size-contact: 20px;
-  --fn-border-radius-size-popup: 24px;
+  --fn-border-radius-size-popup: 12px;
   --fn-border-radius-size-toast: 24px;
   --fn-border-radius-size-card: 16px;
   --fn-border-radius-size-list: 12px;

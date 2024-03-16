@@ -55,6 +55,7 @@
     "brand": "var(--fn-bg-brand)",
     "brand-hovered": "var(--fn-bg-brand-hovered)",
     "overlay": "var(--fn-bg-overlay)",
+    "overlay-anti": "var(--fn-bg-overlay-anti)",
     "toast": "var(--fn-bg-toast)",
     "mc-sidebar": "var(--fn-bg-mc-sidebar)",
     "mc-container": "var(--fn-bg-mc-container)",
@@ -73,7 +74,7 @@
     "progress-default": "var(--fn-bg-progress-default)",
     "progress-second": "var(--fn-bg-progress-second)",
     "scrollbar-default": "var(--fn-bg-scrollbar-default)",
-    "scrollbar-second": "var(--fn-bg-scrollbar-second)"
+    "scrollbar-hover": "var(--fn-bg-scrollbar-hover)"
   },
   "borderColor": {
     "default": "var(--fn-border-default)",

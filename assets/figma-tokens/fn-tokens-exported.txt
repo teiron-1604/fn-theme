@@ -216,6 +216,10 @@
 			"type": "color",
 			"value": "{fn-black.100-70}"
 		},
+		"overlay-anti": {
+			"type": "color",
+			"value": "{fn-white.100-70}"
+		},
 		"toast": {
 			"type": "color",
 			"value": "{fn-black.100-80}"
@@ -288,7 +292,7 @@
 			"type": "color",
 			"value": "{fn-neutral.200}"
 		},
-		"scrollbar-second": {
+		"scrollbar-hover": {
 			"type": "color",
 			"value": "{fn-neutral.250}"
 		}
@@ -340,7 +344,7 @@
 		},
 		"modal": {
 			"type": "color",
-			"value": "{fn-border.app}"
+			"value": "{fn-white.100-40}"
 		}
 	},
 	"fn-divider": {
@@ -574,6 +578,10 @@
 			"type": "color",
 			"value": "{fn-black.100-70}"
 		},
+		"overlay-anti": {
+			"type": "color",
+			"value": "{fn-black.100-70}"
+		},
 		"toast": {
 			"type": "color",
 			"value": "{fn-white.100-90}"
@@ -646,7 +654,7 @@
 			"type": "color",
 			"value": "{fn-white.100-10}"
 		},
-		"scrollbar-second": {
+		"scrollbar-hover": {
 			"type": "color",
 			"value": "{fn-white.100-20}"
 		}
@@ -694,11 +702,11 @@
 		},
 		"app": {
 			"type": "color",
-			"value": "{fn-black.100-40}"
+			"value": "{fn-white.100-10}"
 		},
 		"modal": {
 			"type": "color",
-			"value": "{fn-bg.app}"
+			"value": "{fn-white.100-10}"
 		}
 	},
 	"fn-divider": {
@@ -748,7 +756,7 @@
 		},
 		"radius-popup": {
 			"type": "number",
-			"value": 24
+			"value": 12
 		},
 		"radius-toast": {
 			"type": "number",
@@ -1568,3 +1576,5 @@
 		}
 	}
 }
+
+

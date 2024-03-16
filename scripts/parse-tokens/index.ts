@@ -2,11 +2,15 @@ import { readFileSync, writeFileSync } from 'node:fs'
 import {
   CSS_VAR_PREFIX,
   exportedFigmaTokensFile,
+  fontConventionConfigFile,
   parsedFigmaTokensFile,
 } from '../shared'
 import { FigmaTokenParser } from './parser'
 
 async function run() {
+  const fontConventionConfig = readFileSync(fontConventionConfigFile, 'utf-8')
+  const fontConvention = JSON.parse(fontConventionConfig)
+
   const exported = readFileSync(exportedFigmaTokensFile, 'utf-8')
   const separator = '/* separator */'
   const prefixPattern = new RegExp(`${CSS_VAR_PREFIX}-`, 'gim')
@@ -32,6 +36,7 @@ async function run() {
 
   const [light, dark] = [_light, _dark].map((tokens) => {
     return new FigmaTokenParser(tokens)
+      .mergeConfig(fontConvention)
       .addUnitToNumberTokens()
       .setAnotherTokenType('text', 'textColor')
       .setAnotherTokenType('bg', 'backgroundColor')

@@ -10,6 +10,18 @@ export class FigmaTokenParser {
   }
 
   /**
+   * Merge the configuration exported by Figma with the convention configuration
+   */
+  public mergeConfig(config: AnyRecord) {
+    this.themeConfig = {
+      ...this.themeConfig,
+      ...config,
+    }
+
+    return this
+  }
+
+  /**
    * Change the type of a set of Tokens to another type,
    * to anchor it under another Theme type (e.g. `color` --> `textColor`)
    *
@@ -38,6 +50,9 @@ export class FigmaTokenParser {
     }
   }
 
+  /**
+   * Number tokens exported by Figma usually do not have units.
+   */
   public addUnitToNumberTokens() {
     for (const key in this.themeConfig) {
       if (Object.prototype.hasOwnProperty.call(this.themeConfig, key)) {

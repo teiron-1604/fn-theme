@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 16 Mar 2024 08:10:02 GMT
+ * Generated on Sat, 16 Mar 2024 08:27:15 GMT
  */
 
 
@@ -92,6 +92,24 @@
   --fn-border-modal: rgba(255, 255, 255, 0.1000);
   --fn-divider-default: rgba(255, 255, 255, 0.1000);
   --fn-divider-secondary: rgba(255, 255, 255, 0.0600);
+  --fn-font-size-xs: 12px;
+  --fn-font-size-sm: 13px;
+  --fn-font-size-base: 14px;
+  --fn-font-size-lg: 16px;
+  --fn-font-size-xl: 18px;
+  --fn-font-size-2xl: 20px;
+  --fn-font-size-3xl: 24px;
+  --fn-font-size-4xl: 28px;
+  --fn-font-size-5xl: 30px;
+  --fn-line-height-xs: 20px;
+  --fn-line-height-sm: 22px;
+  --fn-line-height-base: 22px;
+  --fn-line-height-lg: 24px;
+  --fn-line-height-xl: 26px;
+  --fn-line-height-2xl: 28px;
+  --fn-line-height-3xl: 32px;
+  --fn-line-height-4xl: 36px;
+  --fn-line-height-5xl: 38px;
   --fn-neutral-100: #fbfcfe;
   --fn-neutral-150: #f2f3f8;
   --fn-neutral-200: #e0e2eb;

@@ -355,6 +355,82 @@
       "value": "rgba(255, 255, 255, 0.0600)"
     }
   },
+  "fontSize": {
+    "xs": {
+      "value": "12px",
+      "type": "other"
+    },
+    "sm": {
+      "value": "13px",
+      "type": "other"
+    },
+    "base": {
+      "value": "14px",
+      "type": "other"
+    },
+    "lg": {
+      "value": "16px",
+      "type": "other"
+    },
+    "xl": {
+      "value": "18px",
+      "type": "other"
+    },
+    "2xl": {
+      "value": "20px",
+      "type": "other"
+    },
+    "3xl": {
+      "value": "24px",
+      "type": "other"
+    },
+    "4xl": {
+      "value": "28px",
+      "type": "other"
+    },
+    "5xl": {
+      "value": "30px",
+      "type": "other"
+    }
+  },
+  "lineHeight": {
+    "xs": {
+      "value": "20px",
+      "type": "other"
+    },
+    "sm": {
+      "value": "22px",
+      "type": "other"
+    },
+    "base": {
+      "value": "22px",
+      "type": "other"
+    },
+    "lg": {
+      "value": "24px",
+      "type": "other"
+    },
+    "xl": {
+      "value": "26px",
+      "type": "other"
+    },
+    "2xl": {
+      "value": "28px",
+      "type": "other"
+    },
+    "3xl": {
+      "value": "32px",
+      "type": "other"
+    },
+    "4xl": {
+      "value": "36px",
+      "type": "other"
+    },
+    "5xl": {
+      "value": "38px",
+      "type": "other"
+    }
+  },
   "neutral": {
     "100": {
       "type": "color",

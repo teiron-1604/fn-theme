@@ -1,3 +1,15 @@
+# [0.5.0](https://github.com/teiron-1604/fn-theme/compare/v0.4.2...v0.5.0) (2024-03-16)
+
+
+### Bug Fixes
+
+* **assets:** update tokens ([3312a65](https://github.com/teiron-1604/fn-theme/commit/3312a655ee1db78ca247799b0b97830275c31bac))
+
+
+### Features
+
+* **parse-tokens:** add font convention config to merge into figma tokens ([99dfb7d](https://github.com/teiron-1604/fn-theme/commit/99dfb7d35d4db7f2f793c0a594e8bcc0d7556e52))
+
 ## [0.4.2](https://github.com/teiron-1604/fn-theme/compare/v0.4.1...v0.4.2) (2024-03-14)
 
 

@@ -21,6 +21,11 @@ export const exportedFigmaTokensFile = resolve(
   `./fn-tokens-exported.txt`,
 )
 
+export const fontConventionConfigFile = resolve(
+  figmaTokensPath,
+  `./fn-font-convention.json`,
+)
+
 export const parsedFigmaTokensFile = resolve(
   figmaTokensPath,
   `./fn-tokens.json`,

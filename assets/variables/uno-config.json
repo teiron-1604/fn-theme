@@ -279,6 +279,28 @@
       "neutral-550-24": "var(--fn-opacity-neutral-550-24)"
     }
   },
+  "fontSize": {
+    "xs": "var(--fn-font-size-xs)",
+    "sm": "var(--fn-font-size-sm)",
+    "base": "var(--fn-font-size-base)",
+    "lg": "var(--fn-font-size-lg)",
+    "xl": "var(--fn-font-size-xl)",
+    "2xl": "var(--fn-font-size-2xl)",
+    "3xl": "var(--fn-font-size-3xl)",
+    "4xl": "var(--fn-font-size-4xl)",
+    "5xl": "var(--fn-font-size-5xl)"
+  },
+  "lineHeight": {
+    "xs": "var(--fn-line-height-xs)",
+    "sm": "var(--fn-line-height-sm)",
+    "base": "var(--fn-line-height-base)",
+    "lg": "var(--fn-line-height-lg)",
+    "xl": "var(--fn-line-height-xl)",
+    "2xl": "var(--fn-line-height-2xl)",
+    "3xl": "var(--fn-line-height-3xl)",
+    "4xl": "var(--fn-line-height-4xl)",
+    "5xl": "var(--fn-line-height-5xl)"
+  },
   "borderRadius": {
     "size-xs": "var(--fn-border-radius-size-xs)",
     "size-sm": "var(--fn-border-radius-size-sm)",

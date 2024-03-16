@@ -43,7 +43,7 @@
   "scripts": {
     "build": "run-s build:*",
     "build:cleanup": "tsx ./scripts/cleanup.ts",
-    "build:parse": "tsx ./scripts/parse-tokens.ts",
+    "build:parse": "tsx ./scripts/parse-tokens/index.ts",
     "build:transform": "run-s transform:*",
     "build:variables": "tsx ./scripts/build-variables.ts",
     "build:bundles": "tsup",

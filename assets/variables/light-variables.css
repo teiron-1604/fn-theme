@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 16 Mar 2024 08:27:15 GMT
+ * Generated on Tue, 19 Mar 2024 10:14:07 GMT
  */
 
 
@@ -22,6 +22,7 @@
   --fn-text-brand: #0e4caf;
   --fn-text-brand-hovered: #002d75;
   --fn-text-white: #ffffff;
+  --fn-text-white-secondary: rgba(255, 255, 255, 0.5000);
   --fn-bg-surface-dim: #f2f3f8;
   --fn-bg-surface: #fbfcfe;
   --fn-bg-surface-bright: #ffffff;
@@ -33,11 +34,11 @@
   --fn-bg-app: rgba(255, 255, 255, 0.8000);
   --fn-bg-app-header: rgba(255, 255, 255, 0.0000);
   --fn-bg-app-sidebar: rgba(255, 255, 255, 0.0000);
-  --fn-bg-app-container: #fbfcfe;
+  --fn-bg-app-container: #ffffff;
   --fn-bg-modal: rgba(255, 255, 255, 0.8000);
-  --fn-bg-modal-header: rgba(255, 255, 255, 0.0000);
-  --fn-bg-modal-sidebar: rgba(255, 255, 255, 0.0000);
-  --fn-bg-modal-container: #fbfcfe;
+  --fn-bg-modal-header: #fbfcfe;
+  --fn-bg-modal-sidebar: #fbfcfe;
+  --fn-bg-modal-container: #f2f3f8;
   --fn-bg-anti: #05060b;
   --fn-bg-accent: #d6e4ff;
   --fn-bg-accent-hovered: #aac9fd;
@@ -78,6 +79,8 @@
   --fn-bg-progress-second: #bcbfcd;
   --fn-bg-scrollbar-default: #e0e2eb;
   --fn-bg-scrollbar-hover: #d0d2de;
+  --fn-bg-list-hover: #f2f3f8;
+  --fn-bg-list-focus: #f0f4ff;
   --fn-border-default: #e0e2eb;
   --fn-border-default-hovered: #bcbfcd;
   --fn-border-disabled: rgba(128, 131, 150, 0.4500);
@@ -272,11 +275,7 @@
   --fn-border-radius-size-toast: 24px;
   --fn-border-radius-size-card: 16px;
   --fn-border-radius-size-list: 12px;
-  --fn-blur-xs: 8px;
-  --fn-blur-sm: 16px;
-  --fn-blur-base: 24px;
-  --fn-blur-lg: 40px;
-  --fn-blur-xl: 32px;
+  --fn-blur-base: 32px;
   --fn-layout-0: 0px;
   --fn-layout-1: 4px;
   --fn-layout-2: 8px;

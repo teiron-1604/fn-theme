@@ -683,23 +683,7 @@
       }
     },
     "blur": {
-      "xs": {
-        "type": "number",
-        "value": "8px"
-      },
-      "sm": {
-        "type": "number",
-        "value": "16px"
-      },
       "base": {
-        "type": "number",
-        "value": "24px"
-      },
-      "lg": {
-        "type": "number",
-        "value": "40px"
-      },
-      "xl": {
         "type": "number",
         "value": "32px"
       }
@@ -914,6 +898,10 @@
       "white": {
         "type": "textColor",
         "value": "{white.white-100}"
+      },
+      "white-secondary": {
+        "type": "textColor",
+        "value": "{white.100-50}"
       }
     },
     "bg": {
@@ -963,7 +951,7 @@
       },
       "app-container": {
         "type": "backgroundColor",
-        "value": "{bg.surface}"
+        "value": "{bg.container-brightest}"
       },
       "modal": {
         "type": "backgroundColor",
@@ -971,15 +959,15 @@
       },
       "modal-header": {
         "type": "backgroundColor",
-        "value": "{bg.app-header}"
+        "value": "{bg.container-bright}"
       },
       "modal-sidebar": {
         "type": "backgroundColor",
-        "value": "{bg.app-sidebar}"
+        "value": "{bg.container-bright}"
       },
       "modal-container": {
         "type": "backgroundColor",
-        "value": "{bg.app-container}"
+        "value": "{bg.container}"
       },
       "anti": {
         "type": "backgroundColor",
@@ -1140,6 +1128,14 @@
       "scrollbar-hover": {
         "type": "backgroundColor",
         "value": "{neutral.250}"
+      },
+      "list-hover": {
+        "type": "backgroundColor",
+        "value": "{neutral.150}"
+      },
+      "list-focus": {
+        "type": "backgroundColor",
+        "value": "{blue.100}"
       }
     },
     "border": {
@@ -1294,6 +1290,10 @@
       "white": {
         "type": "textColor",
         "value": "{white.white-100}"
+      },
+      "white-secondary": {
+        "type": "textColor",
+        "value": "{white.100-50}"
       }
     },
     "bg": {
@@ -1343,7 +1343,7 @@
       },
       "app-container": {
         "type": "backgroundColor",
-        "value": "{bg.surface}"
+        "value": "{bg.container-brightest}"
       },
       "modal": {
         "type": "backgroundColor",
@@ -1351,15 +1351,15 @@
       },
       "modal-header": {
         "type": "backgroundColor",
-        "value": "{bg.app-header}"
+        "value": "{bg.container-bright}"
       },
       "modal-sidebar": {
         "type": "backgroundColor",
-        "value": "{bg.app-sidebar}"
+        "value": "{bg.container-bright}"
       },
       "modal-container": {
         "type": "backgroundColor",
-        "value": "{bg.app-container}"
+        "value": "{bg.container}"
       },
       "anti": {
         "type": "backgroundColor",
@@ -1423,11 +1423,11 @@
       },
       "brand-light": {
         "type": "backgroundColor",
-        "value": "{blue.900}"
+        "value": "{neutral.700}"
       },
       "brand-light-hovered": {
         "type": "backgroundColor",
-        "value": "{blue.800}"
+        "value": "{neutral.650}"
       },
       "brand": {
         "type": "backgroundColor",
@@ -1520,6 +1520,14 @@
       "scrollbar-hover": {
         "type": "backgroundColor",
         "value": "{white.100-20}"
+      },
+      "list-hover": {
+        "type": "backgroundColor",
+        "value": "{neutral.750}"
+      },
+      "list-focus": {
+        "type": "backgroundColor",
+        "value": "{neutral.700}"
       }
     },
     "border": {

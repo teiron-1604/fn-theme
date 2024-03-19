@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 16 Mar 2024 08:27:15 GMT
+ * Generated on Tue, 19 Mar 2024 10:14:07 GMT
  */
 
 
@@ -22,6 +22,7 @@
   --fn-text-brand: #3374db;
   --fn-text-brand-hovered: #0e4caf;
   --fn-text-white: #ffffff;
+  --fn-text-white-secondary: rgba(255, 255, 255, 0.5000);
   --fn-bg-surface-dim: #05060b;
   --fn-bg-surface: #05060b;
   --fn-bg-surface-bright: #32364c;
@@ -33,11 +34,11 @@
   --fn-bg-app: rgba(0, 0, 0, 0.8000);
   --fn-bg-app-header: rgba(0, 0, 0, 0.0000);
   --fn-bg-app-sidebar: rgba(0, 0, 0, 0.0000);
-  --fn-bg-app-container: #05060b;
+  --fn-bg-app-container: #0f111e;
   --fn-bg-modal: rgba(0, 0, 0, 0.8000);
-  --fn-bg-modal-header: rgba(0, 0, 0, 0.0000);
-  --fn-bg-modal-sidebar: rgba(0, 0, 0, 0.0000);
-  --fn-bg-modal-container: #05060b;
+  --fn-bg-modal-header: #151826;
+  --fn-bg-modal-sidebar: #151826;
+  --fn-bg-modal-container: #1f2233;
   --fn-bg-anti: #fbfcfe;
   --fn-bg-accent: #002d75;
   --fn-bg-accent-hovered: #0e4caf;
@@ -53,8 +54,8 @@
   --fn-bg-warn-light-hovered: #331f00;
   --fn-bg-warn: #a85f00;
   --fn-bg-warn-hovered: #fa8900;
-  --fn-bg-brand-light: #000e24;
-  --fn-bg-brand-light-hovered: #001942;
+  --fn-bg-brand-light: #272c40;
+  --fn-bg-brand-light-hovered: #32364c;
   --fn-bg-brand: #3374db;
   --fn-bg-brand-hovered: #69a0f7;
   --fn-bg-overlay: rgba(0, 0, 0, 0.7000);
@@ -78,6 +79,8 @@
   --fn-bg-progress-second: rgba(255, 255, 255, 0.5000);
   --fn-bg-scrollbar-default: rgba(255, 255, 255, 0.1000);
   --fn-bg-scrollbar-hover: rgba(255, 255, 255, 0.2000);
+  --fn-bg-list-hover: #1f2233;
+  --fn-bg-list-focus: #272c40;
   --fn-border-default: #3e4359;
   --fn-border-default-hovered: #666a7f;
   --fn-border-disabled: #272c40;
@@ -272,11 +275,7 @@
   --fn-border-radius-size-toast: 24px;
   --fn-border-radius-size-card: 16px;
   --fn-border-radius-size-list: 12px;
-  --fn-blur-xs: 8px;
-  --fn-blur-sm: 16px;
-  --fn-blur-base: 24px;
-  --fn-blur-lg: 40px;
-  --fn-blur-xl: 32px;
+  --fn-blur-base: 32px;
   --fn-layout-0: 0px;
   --fn-layout-1: 4px;
   --fn-layout-2: 8px;

@@ -16,7 +16,8 @@
     "warn-hovered": "var(--fn-text-warn-hovered)",
     "brand": "var(--fn-text-brand)",
     "brand-hovered": "var(--fn-text-brand-hovered)",
-    "white": "var(--fn-text-white)"
+    "white": "var(--fn-text-white)",
+    "white-secondary": "var(--fn-text-white-secondary)"
   },
   "backgroundColor": {
     "surface-dim": "var(--fn-bg-surface-dim)",
@@ -74,7 +75,9 @@
     "progress-default": "var(--fn-bg-progress-default)",
     "progress-second": "var(--fn-bg-progress-second)",
     "scrollbar-default": "var(--fn-bg-scrollbar-default)",
-    "scrollbar-hover": "var(--fn-bg-scrollbar-hover)"
+    "scrollbar-hover": "var(--fn-bg-scrollbar-hover)",
+    "list-hover": "var(--fn-bg-list-hover)",
+    "list-focus": "var(--fn-bg-list-focus)"
   },
   "borderColor": {
     "default": "var(--fn-border-default)",
@@ -315,11 +318,7 @@
     "size-list": "var(--fn-border-radius-size-list)"
   },
   "blur": {
-    "xs": "var(--fn-blur-xs)",
-    "sm": "var(--fn-blur-sm)",
-    "base": "var(--fn-blur-base)",
-    "lg": "var(--fn-blur-lg)",
-    "xl": "var(--fn-blur-xl)"
+    "base": "var(--fn-blur-base)"
   },
   "width": {
     "layout-0": "var(--fn-layout-0)",

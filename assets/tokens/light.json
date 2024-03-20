@@ -108,7 +108,7 @@
     },
     "app": {
       "type": "backgroundColor",
-      "value": "{white.100-80}"
+      "value": "{bg.container}"
     },
     "app-header": {
       "type": "backgroundColor",
@@ -305,6 +305,10 @@
     "list-focus": {
       "type": "backgroundColor",
       "value": "{blue.100}"
+    },
+    "text-selection": {
+      "type": "backgroundColor",
+      "value": "{bg.brand-light}"
     }
   },
   "border": {
@@ -318,7 +322,7 @@
     },
     "disabled": {
       "type": "borderColor",
-      "value": "{opacity.neutral-250-45}"
+      "value": "rgba(188, 191, 205, 0.4000)"
     },
     "anti": {
       "type": "borderColor",
@@ -350,11 +354,11 @@
     },
     "app": {
       "type": "borderColor",
-      "value": "{white.100-40}"
+      "value": "{white.100-0}"
     },
     "modal": {
       "type": "borderColor",
-      "value": "{white.100-40}"
+      "value": "{white.100-0}"
     }
   },
   "divider": {

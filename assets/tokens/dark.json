@@ -108,7 +108,7 @@
     },
     "app": {
       "type": "backgroundColor",
-      "value": "{black.100-80}"
+      "value": "{bg.container}"
     },
     "app-header": {
       "type": "backgroundColor",
@@ -305,6 +305,10 @@
     "list-focus": {
       "type": "backgroundColor",
       "value": "{neutral.700}"
+    },
+    "text-selection": {
+      "type": "backgroundColor",
+      "value": "{bg.brand-light}"
     }
   },
   "border": {
@@ -350,11 +354,11 @@
     },
     "app": {
       "type": "borderColor",
-      "value": "{white.100-10}"
+      "value": "{border.default}"
     },
     "modal": {
       "type": "borderColor",
-      "value": "{white.100-10}"
+      "value": "{border.default}"
     }
   },
   "divider": {

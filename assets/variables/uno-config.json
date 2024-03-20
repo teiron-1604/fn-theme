@@ -77,7 +77,8 @@
     "scrollbar-default": "var(--fn-bg-scrollbar-default)",
     "scrollbar-hover": "var(--fn-bg-scrollbar-hover)",
     "list-hover": "var(--fn-bg-list-hover)",
-    "list-focus": "var(--fn-bg-list-focus)"
+    "list-focus": "var(--fn-bg-list-focus)",
+    "text-selection": "var(--fn-bg-text-selection)"
   },
   "borderColor": {
     "default": "var(--fn-border-default)",

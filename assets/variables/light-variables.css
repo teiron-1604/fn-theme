@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 19 Mar 2024 10:14:07 GMT
+ * Generated on Wed, 20 Mar 2024 02:59:01 GMT
  */
 
 
@@ -31,11 +31,11 @@
   --fn-bg-container: #f2f3f8;
   --fn-bg-container-dim: #e0e2eb;
   --fn-bg-container-dimmest: rgba(188, 191, 205, 0.4800);
-  --fn-bg-app: rgba(255, 255, 255, 0.8000);
+  --fn-bg-app: #f2f3f8;
   --fn-bg-app-header: rgba(255, 255, 255, 0.0000);
   --fn-bg-app-sidebar: rgba(255, 255, 255, 0.0000);
   --fn-bg-app-container: #ffffff;
-  --fn-bg-modal: rgba(255, 255, 255, 0.8000);
+  --fn-bg-modal: #f2f3f8;
   --fn-bg-modal-header: #fbfcfe;
   --fn-bg-modal-sidebar: #fbfcfe;
   --fn-bg-modal-container: #f2f3f8;
@@ -81,9 +81,10 @@
   --fn-bg-scrollbar-hover: #d0d2de;
   --fn-bg-list-hover: #f2f3f8;
   --fn-bg-list-focus: #f0f4ff;
+  --fn-bg-text-selection: #f0f4ff;
   --fn-border-default: #e0e2eb;
   --fn-border-default-hovered: #bcbfcd;
-  --fn-border-disabled: rgba(128, 131, 150, 0.4500);
+  --fn-border-disabled: rgba(188, 191, 205, 0.4000);
   --fn-border-anti: #05060b;
   --fn-border-accent: #aac9fd;
   --fn-border-success: #adfbb4;
@@ -91,8 +92,8 @@
   --fn-border-warn: #ffaf4d;
   --fn-border-brand: #aac9fd;
   --fn-border-focus: #69a0f7;
-  --fn-border-app: rgba(255, 255, 255, 0.4000);
-  --fn-border-modal: rgba(255, 255, 255, 0.4000);
+  --fn-border-app: rgba(255, 255, 255, 0.0000);
+  --fn-border-modal: rgba(255, 255, 255, 0.0000);
   --fn-divider-default: rgba(0, 0, 0, 0.1000);
   --fn-divider-secondary: rgba(0, 0, 0, 0.0600);
   --fn-font-size-xs: 12px;

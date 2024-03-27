@@ -84,6 +84,7 @@
     "default": "var(--fn-border-default)",
     "default-hovered": "var(--fn-border-default-hovered)",
     "disabled": "var(--fn-border-disabled)",
+    "card": "var(--fn-border-card)",
     "anti": "var(--fn-border-anti)",
     "accent": "var(--fn-border-accent)",
     "success": "var(--fn-border-success)",
@@ -280,7 +281,9 @@
     },
     "opacity": {
       "neutral-250-45": "var(--fn-opacity-neutral-250-45)",
-      "neutral-550-24": "var(--fn-opacity-neutral-550-24)"
+      "neutral-550-24": "var(--fn-opacity-neutral-550-24)",
+      "neutral-850-70": "var(--fn-opacity-neutral-850-70)",
+      "neutral-900-80": "var(--fn-opacity-neutral-900-80)"
     }
   },
   "fontSize": {

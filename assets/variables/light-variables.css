@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 20 Mar 2024 02:59:01 GMT
+ * Generated on Wed, 27 Mar 2024 08:49:35 GMT
  */
 
 
@@ -64,7 +64,7 @@
   --fn-bg-mc-sidebar: #ffffff;
   --fn-bg-mc-container: #0f111e;
   --fn-bg-mc-placeholder: #1f2233;
-  --fn-bg-mc-dropdown: rgba(0, 0, 0, 0.8000);
+  --fn-bg-mc-dropdown: rgba(5, 6, 11, 0.8000);
   --fn-bg-mc-dialog: #0f111e;
   --fn-bg-mc-overlay: rgba(0, 0, 0, 0.4000);
   --fn-bg-mc-toast: #272c40;
@@ -85,6 +85,7 @@
   --fn-border-default: #e0e2eb;
   --fn-border-default-hovered: #bcbfcd;
   --fn-border-disabled: rgba(188, 191, 205, 0.4000);
+  --fn-border-card: #e0e2eb;
   --fn-border-anti: #05060b;
   --fn-border-accent: #aac9fd;
   --fn-border-success: #adfbb4;
@@ -265,6 +266,8 @@
   --fn-black-100-90: rgba(0, 0, 0, 0.9000);
   --fn-opacity-neutral-250-45: rgba(128, 131, 150, 0.4500);
   --fn-opacity-neutral-550-24: rgba(99, 103, 121, 0.2400);
+  --fn-opacity-neutral-850-70: rgba(15, 17, 30, 0.7000);
+  --fn-opacity-neutral-900-80: rgba(5, 6, 11, 0.8000);
   --fn-border-radius-size-xs: 6px;
   --fn-border-radius-size-sm: 8px;
   --fn-border-radius-size-base: 12px;

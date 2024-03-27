@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 20 Mar 2024 02:59:01 GMT
+ * Generated on Wed, 27 Mar 2024 08:49:35 GMT
  */
 
 
@@ -64,9 +64,9 @@
   --fn-bg-mc-sidebar: #05060b;
   --fn-bg-mc-container: #0f111e;
   --fn-bg-mc-placeholder: #1f2233;
-  --fn-bg-mc-dropdown: rgba(0, 0, 0, 0.8000);
+  --fn-bg-mc-dropdown: rgba(5, 6, 11, 0.8000);
   --fn-bg-mc-dialog: #0f111e;
-  --fn-bg-mc-overlay: rgba(0, 0, 0, 0.4000);
+  --fn-bg-mc-overlay: rgba(15, 17, 30, 0.7000);
   --fn-bg-mc-toast: #272c40;
   --fn-bg-mc-btn-default: rgba(0, 0, 0, 0.2000);
   --fn-bg-mc-btn-hover: rgba(0, 0, 0, 0.3000);
@@ -85,6 +85,7 @@
   --fn-border-default: #3e4359;
   --fn-border-default-hovered: #666a7f;
   --fn-border-disabled: #272c40;
+  --fn-border-card: #272c40;
   --fn-border-anti: #fbfcfe;
   --fn-border-accent: #0e4caf;
   --fn-border-success: #0da529;
@@ -95,7 +96,7 @@
   --fn-border-app: #3e4359;
   --fn-border-modal: #3e4359;
   --fn-divider-default: rgba(255, 255, 255, 0.1000);
-  --fn-divider-secondary: rgba(255, 255, 255, 0.0600);
+  --fn-divider-secondary: rgba(255, 255, 255, 0.0800);
   --fn-font-size-xs: 12px;
   --fn-font-size-sm: 13px;
   --fn-font-size-base: 14px;
@@ -265,6 +266,8 @@
   --fn-black-100-90: rgba(0, 0, 0, 0.9000);
   --fn-opacity-neutral-250-45: rgba(128, 131, 150, 0.4500);
   --fn-opacity-neutral-550-24: rgba(99, 103, 121, 0.2400);
+  --fn-opacity-neutral-850-70: rgba(15, 17, 30, 0.7000);
+  --fn-opacity-neutral-900-80: rgba(5, 6, 11, 0.8000);
   --fn-border-radius-size-xs: 6px;
   --fn-border-radius-size-sm: 8px;
   --fn-border-radius-size-base: 12px;

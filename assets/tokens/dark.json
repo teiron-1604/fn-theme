@@ -240,7 +240,7 @@
     },
     "mc-dropdown": {
       "type": "backgroundColor",
-      "value": "{black.100-80}"
+      "value": "{opacity.neutral-900-80}"
     },
     "mc-dialog": {
       "type": "backgroundColor",
@@ -248,7 +248,7 @@
     },
     "mc-overlay": {
       "type": "backgroundColor",
-      "value": "{black.100-40}"
+      "value": "{opacity.neutral-850-70}"
     },
     "mc-toast": {
       "type": "backgroundColor",
@@ -324,6 +324,10 @@
       "type": "borderColor",
       "value": "{neutral.700}"
     },
+    "card": {
+      "type": "borderColor",
+      "value": "{neutral.700}"
+    },
     "anti": {
       "type": "borderColor",
       "value": "{neutral.100}"
@@ -368,7 +372,7 @@
     },
     "secondary": {
       "type": "color",
-      "value": "rgba(255, 255, 255, 0.0600)"
+      "value": "{white.100-8}"
     }
   },
   "fontSize": {
@@ -1081,6 +1085,14 @@
     "neutral-550-24": {
       "type": "color",
       "value": "rgba(99, 103, 121, 0.2400)"
+    },
+    "neutral-850-70": {
+      "type": "color",
+      "value": "rgba(15, 17, 30, 0.7000)"
+    },
+    "neutral-900-80": {
+      "type": "color",
+      "value": "rgba(5, 6, 11, 0.8000)"
     }
   },
   "borderRadius": {

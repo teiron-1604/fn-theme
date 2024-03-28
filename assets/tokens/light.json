@@ -71,6 +71,10 @@
     "white-secondary": {
       "type": "textColor",
       "value": "{white.100-50}"
+    },
+    "skeleton": {
+      "type": "textColor",
+      "value": "rgba(188, 191, 205, 0.4800)"
     }
   },
   "bg": {
@@ -212,6 +216,10 @@
     },
     "brand-hovered": {
       "type": "backgroundColor",
+      "value": "{blue.400}"
+    },
+    "brand-pressed": {
+      "type": "backgroundColor",
       "value": "{blue.600}"
     },
     "overlay": {
@@ -228,7 +236,7 @@
     },
     "mc-sidebar": {
       "type": "backgroundColor",
-      "value": "{white.white-100}"
+      "value": "{neutral.900}"
     },
     "mc-container": {
       "type": "backgroundColor",

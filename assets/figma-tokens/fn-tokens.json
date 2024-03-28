@@ -910,6 +910,10 @@
       "white-secondary": {
         "type": "textColor",
         "value": "{white.100-50}"
+      },
+      "skeleton": {
+        "type": "textColor",
+        "value": "rgba(188, 191, 205, 0.4800)"
       }
     },
     "bg": {
@@ -1051,6 +1055,10 @@
       },
       "brand-hovered": {
         "type": "backgroundColor",
+        "value": "{blue.400}"
+      },
+      "brand-pressed": {
+        "type": "backgroundColor",
         "value": "{blue.600}"
       },
       "overlay": {
@@ -1067,7 +1075,7 @@
       },
       "mc-sidebar": {
         "type": "backgroundColor",
-        "value": "{white.white-100}"
+        "value": "{neutral.900}"
       },
       "mc-container": {
         "type": "backgroundColor",
@@ -1253,7 +1261,7 @@
       },
       "disabled": {
         "type": "textColor",
-        "value": "{neutral.500}"
+        "value": "{neutral.600}"
       },
       "anti": {
         "type": "textColor",
@@ -1310,6 +1318,10 @@
       "white-secondary": {
         "type": "textColor",
         "value": "{white.100-50}"
+      },
+      "skeleton": {
+        "type": "textColor",
+        "value": "rgba(64, 68, 84, 0.2400)"
       }
     },
     "bg": {
@@ -1407,7 +1419,7 @@
       },
       "error-light": {
         "type": "backgroundColor",
-        "value": "{black.100-90}"
+        "value": "{red.900}"
       },
       "error-light-hovered": {
         "type": "backgroundColor",
@@ -1451,6 +1463,10 @@
       },
       "brand-hovered": {
         "type": "backgroundColor",
+        "value": "{blue.600}"
+      },
+      "brand-pressed": {
+        "type": "backgroundColor",
         "value": "{blue.400}"
       },
       "overlay": {
@@ -1463,7 +1479,7 @@
       },
       "toast": {
         "type": "backgroundColor",
-        "value": "{white.100-90}"
+        "value": "{neutral.700}"
       },
       "mc-sidebar": {
         "type": "backgroundColor",
@@ -1515,7 +1531,7 @@
       },
       "skeleton": {
         "type": "backgroundColor",
-        "value": "{opacity.neutral-550-24}"
+        "value": "{opacity.neutral-850-70}"
       },
       "white": {
         "type": "backgroundColor",

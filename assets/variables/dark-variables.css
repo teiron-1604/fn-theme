@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Mar 2024 08:49:35 GMT
+ * Generated on Thu, 28 Mar 2024 08:29:44 GMT
  */
 
 
@@ -8,7 +8,7 @@
   --fn-text-default: #ffffff;
   --fn-text-secondary: #e0e2eb;
   --fn-text-third: #9195a6;
-  --fn-text-disabled: #666a7f;
+  --fn-text-disabled: #3e4359;
   --fn-text-anti: #05060b;
   --fn-text-yellow: #ffcb3d;
   --fn-text-accent: #69a0f7;
@@ -23,6 +23,7 @@
   --fn-text-brand-hovered: #0e4caf;
   --fn-text-white: #ffffff;
   --fn-text-white-secondary: rgba(255, 255, 255, 0.5000);
+  --fn-text-skeleton: rgba(64, 68, 84, 0.2400);
   --fn-bg-surface-dim: #05060b;
   --fn-bg-surface: #05060b;
   --fn-bg-surface-bright: #32364c;
@@ -46,7 +47,7 @@
   --fn-bg-success-light-hovered: #002e0e;
   --fn-bg-success: #39d551;
   --fn-bg-success-hovered: #0da529;
-  --fn-bg-error-light: rgba(0, 0, 0, 0.9000);
+  --fn-bg-error-light: #180207;
   --fn-bg-error-light-hovered: #330009;
   --fn-bg-error: #ff0420;
   --fn-bg-error-hovered: #ff5c6c;
@@ -57,10 +58,11 @@
   --fn-bg-brand-light: #272c40;
   --fn-bg-brand-light-hovered: #32364c;
   --fn-bg-brand: #3374db;
-  --fn-bg-brand-hovered: #69a0f7;
+  --fn-bg-brand-hovered: #0e4caf;
+  --fn-bg-brand-pressed: #69a0f7;
   --fn-bg-overlay: rgba(0, 0, 0, 0.7000);
   --fn-bg-overlay-anti: rgba(0, 0, 0, 0.7000);
-  --fn-bg-toast: rgba(255, 255, 255, 0.9000);
+  --fn-bg-toast: #272c40;
   --fn-bg-mc-sidebar: #05060b;
   --fn-bg-mc-container: #0f111e;
   --fn-bg-mc-placeholder: #1f2233;
@@ -73,7 +75,7 @@
   --fn-bg-fill-default: rgba(255, 255, 255, 0.0400);
   --fn-bg-fill-second: rgba(255, 255, 255, 0.0800);
   --fn-bg-fill-tertiary: rgba(255, 255, 255, 0.1000);
-  --fn-bg-skeleton: rgba(99, 103, 121, 0.2400);
+  --fn-bg-skeleton: rgba(15, 17, 30, 0.7000);
   --fn-bg-white: #ffffff;
   --fn-bg-progress-default: rgba(255, 255, 255, 0.2000);
   --fn-bg-progress-second: rgba(255, 255, 255, 0.5000);

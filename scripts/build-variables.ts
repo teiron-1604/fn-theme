@@ -14,6 +14,7 @@ const configs: TokensConfig[] = [
     tokens: lightTokens,
     buildExtraFiles: {
       uno: true,
+      tailwind: true,
     },
   },
   {

@@ -1,4 +1,4 @@
 {
   "eslint.experimental.useFlatConfig": true,
-  "cSpell.words": ["figmable", "tsup"]
+  "cSpell.words": ["figmable", "tailwindcss", "tsup"]
 }

@@ -141,6 +141,14 @@ function getUnoConfigFile() {
   return options
 }
 
+function getTailwindConfigFile() {
+  const options: ExtraFilesOptions = {
+    destination: `tailwind-config.json`,
+    format: 'uno/config',
+  }
+  return options
+}
+
 export function getSdOverloadedConfig(tokensConfig: TokensConfig) {
   const { brand, tokens, selector, buildExtraFiles } = tokensConfig
 
@@ -148,6 +156,10 @@ export function getSdOverloadedConfig(tokensConfig: TokensConfig) {
 
   if (buildExtraFiles?.uno) {
     extraFiles.push(getUnoConfigFile())
+  }
+
+  if (buildExtraFiles?.uno) {
+    extraFiles.push(getTailwindConfigFile())
   }
 
   const webPlatFormConfig: Platform = {

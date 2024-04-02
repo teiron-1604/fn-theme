@@ -1,3 +1,10 @@
+# [0.6.0](https://github.com/teiron-1604/fn-theme/compare/v0.5.4...v0.6.0) (2024-04-02)
+
+
+### Features
+
+* **builder:** add tailwind css theme to exported ([6924a77](https://github.com/teiron-1604/fn-theme/commit/6924a7773a2532ae753a22a9b0a5b517d010d605))
+
 ## [0.5.4](https://github.com/teiron-1604/fn-theme/compare/v0.5.3...v0.5.4) (2024-03-28)
 
 

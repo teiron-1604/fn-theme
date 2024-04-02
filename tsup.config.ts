@@ -3,6 +3,7 @@ import { defineConfig } from 'tsup'
 export default defineConfig({
   entry: {
     index: 'scripts/build-uno.ts',
+    tailwind: 'scripts/build-tailwind.ts',
   },
   format: ['esm', 'cjs'],
   outExtension({ format }) {

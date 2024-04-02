@@ -6,6 +6,7 @@ export interface TokensConfig {
   tokens: Record<string, any>
   buildExtraFiles?: {
     uno?: boolean
+    tailwind?: boolean
   }
 }
 

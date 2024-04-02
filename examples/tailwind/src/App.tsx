@@ -17,14 +17,16 @@ function App() {
         </a>
       </div>
 
-      <h1 className="text-success">Vite + React</h1>
+      <div className="flex flex-col gap-6 w-full">
+        <h1 className="text-success">Vite + React</h1>
 
-      <div className="w-layout-10 h-layout-10 max-w-app-width min-h-layout-5 mx-auto bg-surface-dim rounded-size-sm border-1 border-solid border-success">
-        <h2 className="text-secondary">Hello</h2>
-      </div>
+        <div className="w-layout-10 h-layout-10 max-w-app-width min-h-layout-5 mx-auto bg-surface-dim rounded-size-sm border-1 border-solid border-success">
+          <h2 className="text-secondary">Hello</h2>
+        </div>
 
-      <div className="w-30 h-30 mx-auto bg-error rounded-size-popup border-1 border-solid border-success">
-        <h2 className="text-secondary">Hello</h2>
+        <div className="w-32 h-32 mx-auto bg-error rounded-size-popup border-1 border-solid border-success">
+          <h2 className="text-secondary">Hello</h2>
+        </div>
       </div>
 
       <div className="card">

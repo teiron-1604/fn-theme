@@ -971,15 +971,15 @@
       },
       "modal-header": {
         "type": "backgroundColor",
-        "value": "{bg.container-bright}"
+        "value": "{bg.app-header}"
       },
       "modal-sidebar": {
         "type": "backgroundColor",
-        "value": "{bg.container-bright}"
+        "value": "{bg.app-sidebar}"
       },
       "modal-container": {
         "type": "backgroundColor",
-        "value": "{bg.container}"
+        "value": "{bg.app-container}"
       },
       "anti": {
         "type": "backgroundColor",
@@ -1103,11 +1103,11 @@
       },
       "mc-btn-default": {
         "type": "backgroundColor",
-        "value": "{black.100-20}"
+        "value": "{black.100-10}"
       },
       "mc-btn-hover": {
         "type": "backgroundColor",
-        "value": "{black.100-30}"
+        "value": "{white.100-10}"
       },
       "fill-default": {
         "type": "backgroundColor",
@@ -1145,9 +1145,17 @@
         "type": "backgroundColor",
         "value": "{neutral.250}"
       },
+      "list-default": {
+        "type": "backgroundColor",
+        "value": "{bg.container-brightest}"
+      },
+      "list-secondary": {
+        "type": "backgroundColor",
+        "value": "{bg.container}"
+      },
       "list-hover": {
         "type": "backgroundColor",
-        "value": "{neutral.150}"
+        "value": "{bg.container-bright}"
       },
       "list-focus": {
         "type": "backgroundColor",
@@ -1155,7 +1163,11 @@
       },
       "text-selection": {
         "type": "backgroundColor",
-        "value": "{bg.brand-light}"
+        "value": "{blue.300}"
+      },
+      "black": {
+        "type": "backgroundColor",
+        "value": "{black.100}"
       }
     },
     "border": {
@@ -1197,11 +1209,11 @@
       },
       "brand": {
         "type": "borderColor",
-        "value": "{blue.300}"
+        "value": "{blue.500}"
       },
       "focus": {
         "type": "borderColor",
-        "value": "{blue.400}"
+        "value": "{blue.600}"
       },
       "app": {
         "type": "borderColor",
@@ -1379,15 +1391,15 @@
       },
       "modal-header": {
         "type": "backgroundColor",
-        "value": "{bg.container-bright}"
+        "value": "{bg.app-header}"
       },
       "modal-sidebar": {
         "type": "backgroundColor",
-        "value": "{bg.container-bright}"
+        "value": "{bg.app-sidebar}"
       },
       "modal-container": {
         "type": "backgroundColor",
-        "value": "{bg.container}"
+        "value": "{bg.app-container}"
       },
       "anti": {
         "type": "backgroundColor",
@@ -1511,11 +1523,11 @@
       },
       "mc-btn-default": {
         "type": "backgroundColor",
-        "value": "{black.100-20}"
+        "value": "{black.100-10}"
       },
       "mc-btn-hover": {
         "type": "backgroundColor",
-        "value": "{black.100-30}"
+        "value": "{white.100-10}"
       },
       "fill-default": {
         "type": "backgroundColor",
@@ -1553,17 +1565,29 @@
         "type": "backgroundColor",
         "value": "{white.100-20}"
       },
+      "list-default": {
+        "type": "backgroundColor",
+        "value": "{bg.container-brightest}"
+      },
+      "list-secondary": {
+        "type": "backgroundColor",
+        "value": "{bg.container}"
+      },
       "list-hover": {
         "type": "backgroundColor",
-        "value": "{neutral.750}"
+        "value": "{bg.container-bright}"
       },
       "list-focus": {
         "type": "backgroundColor",
-        "value": "{neutral.700}"
+        "value": "{blue.700}"
       },
       "text-selection": {
         "type": "backgroundColor",
-        "value": "{bg.brand-light}"
+        "value": "{bg.brand-light-hovered}"
+      },
+      "black": {
+        "type": "backgroundColor",
+        "value": "{black.100}"
       }
     },
     "border": {

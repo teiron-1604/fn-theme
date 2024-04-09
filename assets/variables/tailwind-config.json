@@ -78,9 +78,12 @@
     "progress-second": "var(--fn-bg-progress-second)",
     "scrollbar-default": "var(--fn-bg-scrollbar-default)",
     "scrollbar-hover": "var(--fn-bg-scrollbar-hover)",
+    "list-default": "var(--fn-bg-list-default)",
+    "list-secondary": "var(--fn-bg-list-secondary)",
     "list-hover": "var(--fn-bg-list-hover)",
     "list-focus": "var(--fn-bg-list-focus)",
-    "text-selection": "var(--fn-bg-text-selection)"
+    "text-selection": "var(--fn-bg-text-selection)",
+    "black": "var(--fn-bg-black)"
   },
   "borderColor": {
     "default": "var(--fn-border-default)",

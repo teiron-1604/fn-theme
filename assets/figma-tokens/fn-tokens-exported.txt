@@ -134,15 +134,15 @@
     },
     "modal-header": {
       "type": "color",
-      "value": "{fn-bg.container-bright}"
+      "value": "{fn-bg.app-header}"
     },
     "modal-sidebar": {
       "type": "color",
-      "value": "{fn-bg.container-bright}"
+      "value": "{fn-bg.app-sidebar}"
     },
     "modal-container": {
       "type": "color",
-      "value": "{fn-bg.container}"
+      "value": "{fn-bg.app-container}"
     },
     "anti": {
       "type": "color",
@@ -266,11 +266,11 @@
     },
     "mc-btn-default": {
       "type": "color",
-      "value": "{fn-black.100-20}"
+      "value": "{fn-black.100-10}"
     },
     "mc-btn-hover": {
       "type": "color",
-      "value": "{fn-black.100-30}"
+      "value": "{fn-white.100-10}"
     },
     "fill-default": {
       "type": "color",
@@ -308,9 +308,17 @@
       "type": "color",
       "value": "{fn-neutral.250}"
     },
+    "list-default": {
+      "type": "color",
+      "value": "{fn-bg.container-brightest}"
+    },
+    "list-secondary": {
+      "type": "color",
+      "value": "{fn-bg.container}"
+    },
     "list-hover": {
       "type": "color",
-      "value": "{fn-neutral.150}"
+      "value": "{fn-bg.container-bright}"
     },
     "list-focus": {
       "type": "color",
@@ -318,7 +326,11 @@
     },
     "text-selection": {
       "type": "color",
-      "value": "{fn-bg.brand-light}"
+      "value": "{fn-blue.300}"
+    },
+    "black": {
+      "type": "color",
+      "value": "{fn-black.100}"
     }
   },
   "fn-border": {
@@ -360,11 +372,11 @@
     },
     "brand": {
       "type": "color",
-      "value": "{fn-blue.300}"
+      "value": "{fn-blue.500}"
     },
     "focus": {
       "type": "color",
-      "value": "{fn-blue.400}"
+      "value": "{fn-blue.600}"
     },
     "app": {
       "type": "color",
@@ -524,15 +536,15 @@
     },
     "modal-header": {
       "type": "color",
-      "value": "{fn-bg.container-bright}"
+      "value": "{fn-bg.app-header}"
     },
     "modal-sidebar": {
       "type": "color",
-      "value": "{fn-bg.container-bright}"
+      "value": "{fn-bg.app-sidebar}"
     },
     "modal-container": {
       "type": "color",
-      "value": "{fn-bg.container}"
+      "value": "{fn-bg.app-container}"
     },
     "anti": {
       "type": "color",
@@ -656,11 +668,11 @@
     },
     "mc-btn-default": {
       "type": "color",
-      "value": "{fn-black.100-20}"
+      "value": "{fn-black.100-10}"
     },
     "mc-btn-hover": {
       "type": "color",
-      "value": "{fn-black.100-30}"
+      "value": "{fn-white.100-10}"
     },
     "fill-default": {
       "type": "color",
@@ -698,17 +710,29 @@
       "type": "color",
       "value": "{fn-white.100-20}"
     },
+    "list-default": {
+      "type": "color",
+      "value": "{fn-bg.container-brightest}"
+    },
+    "list-secondary": {
+      "type": "color",
+      "value": "{fn-bg.container}"
+    },
     "list-hover": {
       "type": "color",
-      "value": "{fn-neutral.750}"
+      "value": "{fn-bg.container-bright}"
     },
     "list-focus": {
       "type": "color",
-      "value": "{fn-neutral.700}"
+      "value": "{fn-blue.700}"
     },
     "text-selection": {
       "type": "color",
-      "value": "{fn-bg.brand-light}"
+      "value": "{fn-bg.brand-light-hovered}"
+    },
+    "black": {
+      "type": "color",
+      "value": "{fn-black.100}"
     }
   },
   "fn-border": {
@@ -1621,54 +1645,6 @@
     "neutral-900-80": {
       "type": "color",
       "value": "rgba(5, 6, 11, 0.8000)"
-    }
-  }
-}
-
-
-/* Color tokens.🌞 Light mode.tokens.json */
-
-{
-  "bg": {
-    "default": {
-      "type": "color",
-      "value": "{neutral.0}"
-    },
-    "secondary": {
-      "type": "color",
-      "value": "{neutral.100}"
-    },
-    "tertiary": {
-      "type": "color",
-      "value": "{neutral.200}"
-    },
-    "disabled": {
-      "type": "color",
-      "value": "rgba(188, 191, 205, 0.4800)"
-    }
-  }
-}
-
-
-/* Color tokens.🌘 Dark mode.tokens.json */
-
-{
-  "bg": {
-    "default": {
-      "type": "color",
-      "value": "{neutral.900}"
-    },
-    "secondary": {
-      "type": "color",
-      "value": "{neutral.700}"
-    },
-    "tertiary": {
-      "type": "color",
-      "value": "{neutral.600}"
-    },
-    "disabled": {
-      "type": "color",
-      "value": "rgba(64, 68, 84, 0.2400)"
     }
   }
 }

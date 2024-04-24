@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Apr 2024 09:14:08 GMT
+ * Generated on Wed, 24 Apr 2024 10:01:35 GMT
  */
 
 
@@ -12,7 +12,7 @@
   --fn-text-anti: #fbfcfe;
   --fn-text-yellow: #ffcb3d;
   --fn-text-accent: #3374db;
-  --fn-text-accent-hovered: #002d75;
+  --fn-text-accent-hovered: #0e4caf;
   --fn-text-success: #0da529;
   --fn-text-success-hovered: #006117;
   --fn-text-error: #ff0420;
@@ -72,6 +72,8 @@
   --fn-bg-mc-toast: #272c40;
   --fn-bg-mc-btn-default: rgba(0, 0, 0, 0.1000);
   --fn-bg-mc-btn-hover: rgba(255, 255, 255, 0.1000);
+  --fn-bg-pa-overlay: rgba(0, 0, 0, 0.6000);
+  --fn-bg-pa-overlay-preview: rgba(0, 0, 0, 0.9000);
   --fn-bg-fill-default: #f2f3f8;
   --fn-bg-fill-second: #e0e2eb;
   --fn-bg-fill-tertiary: #d0d2de;
@@ -83,7 +85,7 @@
   --fn-bg-scrollbar-hover: #d0d2de;
   --fn-bg-list-default: #ffffff;
   --fn-bg-list-secondary: #f2f3f8;
-  --fn-bg-list-hover: #fbfcfe;
+  --fn-bg-list-hover: #f2f3f8;
   --fn-bg-list-focus: #f0f4ff;
   --fn-bg-text-selection: #aac9fd;
   --fn-bg-black: #000000;

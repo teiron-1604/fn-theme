@@ -32,7 +32,7 @@
     },
     "accent-hovered": {
       "type": "color",
-      "value": "{fn-blue.700}"
+      "value": "{fn-blue.600}"
     },
     "success": {
       "type": "color",
@@ -272,6 +272,14 @@
       "type": "color",
       "value": "{fn-white.100-10}"
     },
+    "pa-overlay": {
+      "type": "color",
+      "value": "{fn-black.100-60}"
+    },
+    "pa-overlay-preview": {
+      "type": "color",
+      "value": "{fn-black.100-90}"
+    },
     "fill-default": {
       "type": "color",
       "value": "{fn-neutral.150}"
@@ -318,7 +326,7 @@
     },
     "list-hover": {
       "type": "color",
-      "value": "{fn-bg.container-bright}"
+      "value": "{fn-bg.container}"
     },
     "list-focus": {
       "type": "color",
@@ -446,11 +454,11 @@
     },
     "error": {
       "type": "color",
-      "value": "{fn-red.400}"
+      "value": "{fn-red.500}"
     },
     "error-hovered": {
       "type": "color",
-      "value": "{fn-red.500}"
+      "value": "{fn-red.400}"
     },
     "warn": {
       "type": "color",
@@ -674,6 +682,14 @@
       "type": "color",
       "value": "{fn-white.100-10}"
     },
+    "pa-overlay": {
+      "type": "color",
+      "value": "{fn-black.100-60}"
+    },
+    "pa-overlay-preview": {
+      "type": "color",
+      "value": "{fn-black.100-90}"
+    },
     "fill-default": {
       "type": "color",
       "value": "{fn-white.100-4}"
@@ -720,11 +736,11 @@
     },
     "list-hover": {
       "type": "color",
-      "value": "{fn-bg.container-bright}"
+      "value": "{fn-bg.container}"
     },
     "list-focus": {
       "type": "color",
-      "value": "{fn-blue.700}"
+      "value": "{fn-bg.container}"
     },
     "text-selection": {
       "type": "color",
@@ -1645,6 +1661,28 @@
     "neutral-900-80": {
       "type": "color",
       "value": "rgba(5, 6, 11, 0.8000)"
+    }
+  }
+}
+
+
+/* Spacer primitives.🖥️ Desktop.tokens.json */
+
+{
+  "spacer": {
+    "3": {
+      "type": "number",
+      "value": 16
+    },
+    "6": {
+      "type": "number",
+      "value": 40
+    }
+  },
+  "rounded": {
+    "3": {
+      "type": "number",
+      "value": 12
     }
   }
 }

@@ -69,6 +69,8 @@
     "mc-toast": "var(--fn-bg-mc-toast)",
     "mc-btn-default": "var(--fn-bg-mc-btn-default)",
     "mc-btn-hover": "var(--fn-bg-mc-btn-hover)",
+    "pa-overlay": "var(--fn-bg-pa-overlay)",
+    "pa-overlay-preview": "var(--fn-bg-pa-overlay-preview)",
     "fill-default": "var(--fn-bg-fill-default)",
     "fill-second": "var(--fn-bg-fill-second)",
     "fill-tertiary": "var(--fn-bg-fill-tertiary)",

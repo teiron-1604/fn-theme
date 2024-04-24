@@ -869,7 +869,7 @@
       },
       "accent-hovered": {
         "type": "textColor",
-        "value": "{blue.700}"
+        "value": "{blue.600}"
       },
       "success": {
         "type": "textColor",
@@ -1109,6 +1109,14 @@
         "type": "backgroundColor",
         "value": "{white.100-10}"
       },
+      "pa-overlay": {
+        "type": "backgroundColor",
+        "value": "{black.100-60}"
+      },
+      "pa-overlay-preview": {
+        "type": "backgroundColor",
+        "value": "{black.100-90}"
+      },
       "fill-default": {
         "type": "backgroundColor",
         "value": "{neutral.150}"
@@ -1155,7 +1163,7 @@
       },
       "list-hover": {
         "type": "backgroundColor",
-        "value": "{bg.container-bright}"
+        "value": "{bg.container}"
       },
       "list-focus": {
         "type": "backgroundColor",
@@ -1301,11 +1309,11 @@
       },
       "error": {
         "type": "textColor",
-        "value": "{red.400}"
+        "value": "{red.500}"
       },
       "error-hovered": {
         "type": "textColor",
-        "value": "{red.500}"
+        "value": "{red.400}"
       },
       "warn": {
         "type": "textColor",
@@ -1529,6 +1537,14 @@
         "type": "backgroundColor",
         "value": "{white.100-10}"
       },
+      "pa-overlay": {
+        "type": "backgroundColor",
+        "value": "{black.100-60}"
+      },
+      "pa-overlay-preview": {
+        "type": "backgroundColor",
+        "value": "{black.100-90}"
+      },
       "fill-default": {
         "type": "backgroundColor",
         "value": "{white.100-4}"
@@ -1575,11 +1591,11 @@
       },
       "list-hover": {
         "type": "backgroundColor",
-        "value": "{bg.container-bright}"
+        "value": "{bg.container}"
       },
       "list-focus": {
         "type": "backgroundColor",
-        "value": "{blue.700}"
+        "value": "{bg.container}"
       },
       "text-selection": {
         "type": "backgroundColor",

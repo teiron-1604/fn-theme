@@ -1,3 +1,10 @@
+## [0.6.3](https://github.com/teiron-1604/fn-theme/compare/v0.6.2...v0.6.3) (2024-07-15)
+
+
+### Bug Fixes
+
+* **assets:** update tokens ([9a2d455](https://github.com/teiron-1604/fn-theme/commit/9a2d455bc99b35fad2f24f492c053883f9e47e97))
+
 ## [0.6.2](https://github.com/teiron-1604/fn-theme/compare/v0.6.1...v0.6.2) (2024-04-24)
 
 

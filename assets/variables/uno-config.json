@@ -100,7 +100,8 @@
     "brand": "var(--fn-border-brand)",
     "focus": "var(--fn-border-focus)",
     "app": "var(--fn-border-app)",
-    "modal": "var(--fn-border-modal)"
+    "modal": "var(--fn-border-modal)",
+    "mc-modal": "var(--fn-border-mc-modal)"
   },
   "colors": {
     "divider": {

@@ -393,6 +393,10 @@
     "modal": {
       "type": "color",
       "value": "{fn-white.100-0}"
+    },
+    "mc-modal": {
+      "type": "color",
+      "value": "{fn-neutral.150}"
     }
   },
   "fn-divider": {
@@ -803,6 +807,10 @@
     "modal": {
       "type": "color",
       "value": "{fn-border.default}"
+    },
+    "mc-modal": {
+      "type": "color",
+      "value": "{fn-white.100-8}"
     }
   },
   "fn-divider": {
@@ -1661,28 +1669,6 @@
     "neutral-900-80": {
       "type": "color",
       "value": "rgba(5, 6, 11, 0.8000)"
-    }
-  }
-}
-
-
-/* Spacer primitives.🖥️ Desktop.tokens.json */
-
-{
-  "spacer": {
-    "3": {
-      "type": "number",
-      "value": 16
-    },
-    "6": {
-      "type": "number",
-      "value": 40
-    }
-  },
-  "rounded": {
-    "3": {
-      "type": "number",
-      "value": 12
     }
   }
 }

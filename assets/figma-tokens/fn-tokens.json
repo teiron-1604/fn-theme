@@ -1230,6 +1230,10 @@
       "modal": {
         "type": "borderColor",
         "value": "{white.100-0}"
+      },
+      "mc-modal": {
+        "type": "borderColor",
+        "value": "{neutral.150}"
       }
     },
     "divider": {
@@ -1658,6 +1662,10 @@
       "modal": {
         "type": "borderColor",
         "value": "{border.default}"
+      },
+      "mc-modal": {
+        "type": "borderColor",
+        "value": "{white.100-8}"
       }
     },
     "divider": {

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Apr 2024 10:01:35 GMT
+ * Generated on Mon, 15 Jul 2024 06:28:35 GMT
  */
 
 
@@ -102,6 +102,7 @@
   --fn-border-focus: #002d75;
   --fn-border-app: #3e4359;
   --fn-border-modal: #3e4359;
+  --fn-border-mc-modal: rgba(255, 255, 255, 0.0800);
   --fn-divider-default: rgba(255, 255, 255, 0.1000);
   --fn-divider-secondary: rgba(255, 255, 255, 0.0800);
   --fn-font-size-xs: 12px;

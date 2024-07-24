@@ -84,7 +84,7 @@
     "list-secondary": "var(--fn-bg-list-secondary)",
     "list-hover": "var(--fn-bg-list-hover)",
     "list-focus": "var(--fn-bg-list-focus)",
-    "list-checkox-focus": "var(--fn-bg-list-checkox-focus)",
+    "list-checkbox-focus": "var(--fn-bg-list-checkbox-focus)",
     "text-selection": "var(--fn-bg-text-selection)",
     "black": "var(--fn-bg-black)"
   },

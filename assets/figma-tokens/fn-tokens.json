@@ -1169,7 +1169,7 @@
         "type": "backgroundColor",
         "value": "{blue.200}"
       },
-      "list-checkox-focus": {
+      "list-checkbox-focus": {
         "type": "backgroundColor",
         "value": "{blue.100}"
       },
@@ -1605,7 +1605,7 @@
         "type": "backgroundColor",
         "value": "{bg.container}"
       },
-      "list-checkox-focus": {
+      "list-checkbox-focus": {
         "type": "backgroundColor",
         "value": "{bg.container}"
       },

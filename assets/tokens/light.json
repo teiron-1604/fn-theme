@@ -328,6 +328,10 @@
     },
     "list-focus": {
       "type": "backgroundColor",
+      "value": "{blue.200}"
+    },
+    "list-checkox-focus": {
+      "type": "backgroundColor",
       "value": "{blue.100}"
     },
     "text-selection": {

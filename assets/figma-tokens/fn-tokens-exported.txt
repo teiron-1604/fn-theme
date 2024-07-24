@@ -330,6 +330,10 @@
     },
     "list-focus": {
       "type": "color",
+      "value": "{fn-blue.200}"
+    },
+    "list-checkox-focus": {
+      "type": "color",
       "value": "{fn-blue.100}"
     },
     "text-selection": {
@@ -743,6 +747,10 @@
       "value": "{fn-bg.container}"
     },
     "list-focus": {
+      "type": "color",
+      "value": "{fn-bg.container}"
+    },
+    "list-checkox-focus": {
       "type": "color",
       "value": "{fn-bg.container}"
     },

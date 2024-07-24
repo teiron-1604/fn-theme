@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 15 Jul 2024 06:28:35 GMT
+ * Generated on Wed, 24 Jul 2024 07:01:44 GMT
  */
 
 
@@ -86,7 +86,8 @@
   --fn-bg-list-default: #ffffff;
   --fn-bg-list-secondary: #f2f3f8;
   --fn-bg-list-hover: #f2f3f8;
-  --fn-bg-list-focus: #f0f4ff;
+  --fn-bg-list-focus: #d6e4ff;
+  --fn-bg-list-checkox-focus: #f0f4ff;
   --fn-bg-text-selection: #aac9fd;
   --fn-bg-black: #000000;
   --fn-border-default: #e0e2eb;

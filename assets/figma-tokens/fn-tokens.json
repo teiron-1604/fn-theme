@@ -1167,6 +1167,10 @@
       },
       "list-focus": {
         "type": "backgroundColor",
+        "value": "{blue.200}"
+      },
+      "list-checkox-focus": {
+        "type": "backgroundColor",
         "value": "{blue.100}"
       },
       "text-selection": {
@@ -1598,6 +1602,10 @@
         "value": "{bg.container}"
       },
       "list-focus": {
+        "type": "backgroundColor",
+        "value": "{bg.container}"
+      },
+      "list-checkox-focus": {
         "type": "backgroundColor",
         "value": "{bg.container}"
       },

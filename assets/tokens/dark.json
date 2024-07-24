@@ -330,6 +330,10 @@
       "type": "backgroundColor",
       "value": "{bg.container}"
     },
+    "list-checkox-focus": {
+      "type": "backgroundColor",
+      "value": "{bg.container}"
+    },
     "text-selection": {
       "type": "backgroundColor",
       "value": "{bg.brand-light-hovered}"

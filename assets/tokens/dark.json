@@ -330,7 +330,7 @@
       "type": "backgroundColor",
       "value": "{bg.container}"
     },
-    "list-checkox-focus": {
+    "list-checkbox-focus": {
       "type": "backgroundColor",
       "value": "{bg.container}"
     },

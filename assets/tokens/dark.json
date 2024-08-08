@@ -292,7 +292,7 @@
     },
     "skeleton": {
       "type": "backgroundColor",
-      "value": "{opacity.neutral-850-70}"
+      "value": "{opacity.neutral-250-45}"
     },
     "white": {
       "type": "backgroundColor",
@@ -1121,6 +1121,10 @@
     "neutral-550-24": {
       "type": "color",
       "value": "rgba(99, 103, 121, 0.2400)"
+    },
+    "neutral-550-12": {
+      "type": "color",
+      "value": "rgba(99, 103, 121, 0.1200)"
     },
     "neutral-850-70": {
       "type": "color",

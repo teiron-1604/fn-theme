@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Jul 2024 07:21:13 GMT
+ * Generated on Thu, 08 Aug 2024 11:50:39 GMT
  */
 
 
@@ -77,7 +77,7 @@
   --fn-bg-fill-default: rgba(255, 255, 255, 0.0400);
   --fn-bg-fill-second: rgba(255, 255, 255, 0.0800);
   --fn-bg-fill-tertiary: rgba(255, 255, 255, 0.1000);
-  --fn-bg-skeleton: rgba(15, 17, 30, 0.7000);
+  --fn-bg-skeleton: rgba(128, 131, 150, 0.4500);
   --fn-bg-white: #ffffff;
   --fn-bg-progress-default: rgba(255, 255, 255, 0.2000);
   --fn-bg-progress-second: rgba(255, 255, 255, 0.5000);
@@ -275,6 +275,7 @@
   --fn-black-100-90: rgba(0, 0, 0, 0.9000);
   --fn-opacity-neutral-250-45: rgba(128, 131, 150, 0.4500);
   --fn-opacity-neutral-550-24: rgba(99, 103, 121, 0.2400);
+  --fn-opacity-neutral-550-12: rgba(99, 103, 121, 0.1200);
   --fn-opacity-neutral-850-70: rgba(15, 17, 30, 0.7000);
   --fn-opacity-neutral-900-80: rgba(5, 6, 11, 0.8000);
   --fn-border-radius-size-xs: 6px;

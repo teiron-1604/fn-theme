@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Jul 2024 07:21:13 GMT
+ * Generated on Thu, 08 Aug 2024 11:50:39 GMT
  */
 
 
@@ -8,7 +8,7 @@
   --fn-text-default: #151826;
   --fn-text-secondary: #3e4359;
   --fn-text-third: #666a7f;
-  --fn-text-disabled: #9195a6;
+  --fn-text-disabled: #a4a7b5;
   --fn-text-anti: #fbfcfe;
   --fn-text-yellow: #ffcb3d;
   --fn-text-accent: #3374db;
@@ -31,7 +31,7 @@
   --fn-bg-container-bright: #fbfcfe;
   --fn-bg-container: #f2f3f8;
   --fn-bg-container-dim: #e0e2eb;
-  --fn-bg-container-dimmest: rgba(188, 191, 205, 0.4800);
+  --fn-bg-container-dimmest: rgba(188, 191, 205, 0.2500);
   --fn-bg-app: #f2f3f8;
   --fn-bg-app-header: rgba(255, 255, 255, 0.0000);
   --fn-bg-app-sidebar: rgba(255, 255, 255, 0.0000);
@@ -79,18 +79,18 @@
   --fn-bg-fill-tertiary: #d0d2de;
   --fn-bg-skeleton: rgba(128, 131, 150, 0.4500);
   --fn-bg-white: #ffffff;
-  --fn-bg-progress-default: rgba(188, 191, 205, 0.4800);
+  --fn-bg-progress-default: rgba(188, 191, 205, 0.2500);
   --fn-bg-progress-second: #bcbfcd;
   --fn-bg-scrollbar-default: #e0e2eb;
   --fn-bg-scrollbar-hover: #d0d2de;
   --fn-bg-list-default: #ffffff;
   --fn-bg-list-secondary: #f2f3f8;
   --fn-bg-list-hover: #f2f3f8;
-  --fn-bg-list-focus: #d6e4ff;
-  --fn-bg-list-checkbox-focus: #f0f4ff;
+  --fn-bg-list-focus: #f0f4ff;
+  --fn-bg-list-checkbox-focus: #d6e4ff;
   --fn-bg-text-selection: #aac9fd;
   --fn-bg-black: #000000;
-  --fn-border-default: #e0e2eb;
+  --fn-border-default: #d0d2de;
   --fn-border-default-hovered: #bcbfcd;
   --fn-border-disabled: rgba(188, 191, 205, 0.4000);
   --fn-border-card: #e0e2eb;
@@ -275,6 +275,7 @@
   --fn-black-100-90: rgba(0, 0, 0, 0.9000);
   --fn-opacity-neutral-250-45: rgba(128, 131, 150, 0.4500);
   --fn-opacity-neutral-550-24: rgba(99, 103, 121, 0.2400);
+  --fn-opacity-neutral-550-12: rgba(99, 103, 121, 0.1200);
   --fn-opacity-neutral-850-70: rgba(15, 17, 30, 0.7000);
   --fn-opacity-neutral-900-80: rgba(5, 6, 11, 0.8000);
   --fn-border-radius-size-xs: 6px;

@@ -635,6 +635,10 @@
         "type": "color",
         "value": "rgba(99, 103, 121, 0.2400)"
       },
+      "neutral-550-12": {
+        "type": "color",
+        "value": "rgba(99, 103, 121, 0.1200)"
+      },
       "neutral-850-70": {
         "type": "color",
         "value": "rgba(15, 17, 30, 0.7000)"
@@ -853,7 +857,7 @@
       },
       "disabled": {
         "type": "textColor",
-        "value": "{neutral.400}"
+        "value": "{neutral.350}"
       },
       "anti": {
         "type": "textColor",
@@ -947,7 +951,7 @@
       },
       "container-dimmest": {
         "type": "backgroundColor",
-        "value": "rgba(188, 191, 205, 0.4800)"
+        "value": "rgba(188, 191, 205, 0.2500)"
       },
       "app": {
         "type": "backgroundColor",
@@ -1167,11 +1171,11 @@
       },
       "list-focus": {
         "type": "backgroundColor",
-        "value": "{blue.200}"
+        "value": "{blue.100}"
       },
       "list-checkbox-focus": {
         "type": "backgroundColor",
-        "value": "{blue.100}"
+        "value": "{blue.200}"
       },
       "text-selection": {
         "type": "backgroundColor",
@@ -1185,7 +1189,7 @@
     "border": {
       "default": {
         "type": "borderColor",
-        "value": "{neutral.200}"
+        "value": "{neutral.250}"
       },
       "default-hovered": {
         "type": "borderColor",
@@ -1567,7 +1571,7 @@
       },
       "skeleton": {
         "type": "backgroundColor",
-        "value": "{opacity.neutral-850-70}"
+        "value": "{opacity.neutral-250-45}"
       },
       "white": {
         "type": "backgroundColor",

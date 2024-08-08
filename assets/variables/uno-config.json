@@ -291,6 +291,7 @@
     "opacity": {
       "neutral-250-45": "var(--fn-opacity-neutral-250-45)",
       "neutral-550-24": "var(--fn-opacity-neutral-550-24)",
+      "neutral-550-12": "var(--fn-opacity-neutral-550-12)",
       "neutral-850-70": "var(--fn-opacity-neutral-850-70)",
       "neutral-900-80": "var(--fn-opacity-neutral-900-80)"
     }

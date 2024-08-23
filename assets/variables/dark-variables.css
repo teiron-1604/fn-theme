@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 08 Aug 2024 11:50:39 GMT
+ * Generated on Fri, 23 Aug 2024 08:29:49 GMT
  */
 
 
@@ -15,8 +15,8 @@
   --fn-text-accent-hovered: #0e4caf;
   --fn-text-success: #7af088;
   --fn-text-success-hovered: #0da529;
-  --fn-text-error: #ff0420;
-  --fn-text-error-hovered: #ff5c6c;
+  --fn-text-error: #ff5c6c;
+  --fn-text-error-hovered: #ff0420;
   --fn-text-warn: #fa8900;
   --fn-text-warn-hovered: #a85f00;
   --fn-text-brand: #3374db;
@@ -97,7 +97,7 @@
   --fn-border-anti: #fbfcfe;
   --fn-border-accent: #0e4caf;
   --fn-border-success: #0da529;
-  --fn-border-error: #b80018;
+  --fn-border-error: #ff5c6c;
   --fn-border-warn: #a85f00;
   --fn-border-brand: #0e4caf;
   --fn-border-focus: #002d75;

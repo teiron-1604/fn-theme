@@ -42,11 +42,11 @@
     },
     "error": {
       "type": "textColor",
-      "value": "{red.500}"
+      "value": "{red.400}"
     },
     "error-hovered": {
       "type": "textColor",
-      "value": "{red.400}"
+      "value": "{red.500}"
     },
     "warn": {
       "type": "textColor",
@@ -374,7 +374,7 @@
     },
     "error": {
       "type": "borderColor",
-      "value": "{red.600}"
+      "value": "{red.400}"
     },
     "warn": {
       "type": "borderColor",

@@ -462,11 +462,11 @@
     },
     "error": {
       "type": "color",
-      "value": "{fn-red.500}"
+      "value": "{fn-red.400}"
     },
     "error-hovered": {
       "type": "color",
-      "value": "{fn-red.400}"
+      "value": "{fn-red.500}"
     },
     "warn": {
       "type": "color",
@@ -794,7 +794,7 @@
     },
     "error": {
       "type": "color",
-      "value": "{fn-red.600}"
+      "value": "{fn-red.400}"
     },
     "warn": {
       "type": "color",
